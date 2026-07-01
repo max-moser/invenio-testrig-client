@@ -1,0 +1,5 @@
+{
+  "UserWarning: Please specify the OAISERVER_ID_PREFIX configuration.default value is: oai:runnervm5mmn9:": 2,
+  "FutureWarning: CSRF validation will be enabled by default in the version 1.3.x": 2,
+  "DeprecationWarning: CommunityRelationMixin has been moved to invenio_rdm_records.records.models. Importing from invenio_communities.records.records.models is deprecated and will be removed in a future release.": 1
+}

@@ -1,0 +1,2062 @@
+ opensearch Pulling 
+ redis Pulling 
+ postgresql Pulling 
+ rabbitmq Pulling 
+ redis Pulled 
+ rabbitmq Pulled 
+ postgresql Pulled 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-opensearch-1  Started
+ Container docker_services_cli-rabbitmq-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-jobs/patched
+configfile: pyproject.toml
+testpaths: tests, invenio_jobs
+plugins: flask-1.3.0, black-0.6.0, github-actions-annotate-failures-0.4.2, invenio-4.0.2, pycodestyle-2.5.0, cov-7.1.0, pydocstyle-2.4.0, isort-4.0.0
+collected 191 items
+tests/conftest.py ...                                                    [  1%]
+tests/mock_module/__init__.py ...                                        [  3%]
+tests/mock_module/jobs.py ...                                            [  4%]
+tests/mock_module/tasks.py ...                                           [  6%]
+tests/resources/test_resources.py ..EsEEEEs                              [ 10%]
+tests/test_alembic.py ..E
+                                                [ 12%]
+tests/test_cli.py ..E
+E                                                   [ 14%]
+tests/test_deprecated.py ...                                             [ 16%]
+tests/test_invenio_jobs.py ....                                          [ 18%]
+tests/test_services_job_logs.py ..E
+EE                                    [ 20%]
+tests/test_services_subtasks.py ..E
+EEEEEEEEEE                            [ 27%]
+tests/test_utils.py ...                                                  [ 29%]
+invenio_jobs/__init__.py ...                                             [ 30%]
+invenio_jobs/administration/__init__.py ...                              [ 32%]
+invenio_jobs/administration/jobs.py ...                                  [ 34%]
+invenio_jobs/administration/runs.py ...                                  [ 35%]
+invenio_jobs/alembic/1753948224_add_subtasks_columns_to_jobs_run.py ...  [ 37%]
+invenio_jobs/alembic/1757597048_add_run_args_column_to_jobs_job_table.py . [ 37%]
+                                                                       [ 38%]
+invenio_jobs/alembic/1764848648_add_notification_emails_and_.py ...      [ 40%]
+invenio_jobs/alembic/1773910810_merge_invenio_jobs_heads.py ...          [ 41%]
+invenio_jobs/alembic/1f896f6990b8_update_jobs_module_table_names.py ...  [ 43%]
+invenio_jobs/alembic/356496a01197_create_invenio_jobs_tables.py ...      [ 45%]
+invenio_jobs/alembic/371f4cbcb73d_create_invenio_jobs_branch.py ...      [ 46%]
+invenio_jobs/alembic/9732b5f7609a_change_datetime_types.py ...           [ 48%]
+invenio_jobs/api.py ...                                                  [ 49%]
+invenio_jobs/cli.py ...                                                  [ 51%]
+invenio_jobs/config.py ...                                               [ 52%]
+invenio_jobs/errors.py ...                                               [ 54%]
+invenio_jobs/ext.py ...                                                  [ 56%]
+invenio_jobs/jobs.py ...                                                 [ 57%]
+invenio_jobs/logging/__init__.py ...                                     [ 59%]
+invenio_jobs/logging/celery_signals.py ...                               [ 60%]
+invenio_jobs/logging/index_templates/__init__.py ...                     [ 62%]
+invenio_jobs/logging/index_templates/os-v1/__init__.py ...               [ 63%]
+invenio_jobs/logging/index_templates/os-v2/__init__.py ...               [ 65%]
+invenio_jobs/logging/jobs.py ...                                         [ 67%]
+invenio_jobs/logging/tasks.py ...                                        [ 68%]
+invenio_jobs/models.py ...                                               [ 70%]
+invenio_jobs/proxies.py ...                                              [ 71%]
+invenio_jobs/registry.py ...                                             [ 73%]
+invenio_jobs/resources/__init__.py ...                                   [ 74%]
+invenio_jobs/resources/config.py ...                                     [ 76%]
+invenio_jobs/resources/resources.py ...                                  [ 78%]
+invenio_jobs/services/__init__.py ...                                    [ 79%]
+invenio_jobs/services/config.py ...                                      [ 81%]
+invenio_jobs/services/errors.py ...                                      [ 82%]
+invenio_jobs/services/links.py ...                                       [ 84%]
+invenio_jobs/services/permissions.py ...                                 [ 85%]
+invenio_jobs/services/results.py ...                                     [ 87%]
+invenio_jobs/services/scheduler.py ...                                   [ 89%]
+invenio_jobs/services/schema.py ...                                      [ 90%]
+invenio_jobs/services/services.py ...                                    [ 92%]
+invenio_jobs/services/ui_schema.py ...                                   [ 93%]
+invenio_jobs/tasks.py ...                                                [ 95%]
+invenio_jobs/utils.py ...                                                [ 96%]
+invenio_jobs/views.py ...                                                [ 98%]
+invenio_jobs/webpack.py ...                                              [100%]
+==================================== ERRORS ====================================
+______________________ ERROR at setup of test_simple_flow ______________________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_simple_flow>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+------------------------------ Captured log setup ------------------------------
+WARNING  invenio:ext.py:286 JSONSCHEMAS_HOST is set to localhost
+  self.init_app(app)
+DEBUG    invenio:ext.py:171 Flask-DebugToolbar extension not installed
+ERROR    invenio:app.py:304 Failed to initialize entry point: EntryPoint(name='invenio_groups', value='invenio_users_resources.views:create_groups_resources_bp', group='invenio_base.api_blueprints')
+______________________ ERROR at setup of test_jobs_create ______________________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_simple_flow>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+______________________ ERROR at setup of test_jobs_update ______________________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_simple_flow>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+______________________ ERROR at setup of test_jobs_search ______________________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_simple_flow>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+______________________ ERROR at setup of test_jobs_delete ______________________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_simple_flow>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+________________________ ERROR at setup of test_alembic ________________________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_alembic>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+------------------------------ Captured log setup ------------------------------
+WARNING  invenio:ext.py:286 JSONSCHEMAS_HOST is set to localhost
+DEBUG    invenio:ext.py:171 Flask-DebugToolbar extension not installed
+ERROR    invenio:app.py:304 Failed to initialize entry point: EntryPoint(name='invenio_groups', value='invenio_users_resources.views:create_groups_resources_bp', group='invenio_base.api_blueprints')
+_______________________ ERROR at setup of test_jobs_cli ________________________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_jobs_cli>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+------------------------------ Captured log setup ------------------------------
+WARNING  invenio:ext.py:286 JSONSCHEMAS_HOST is set to localhost
+DEBUG    invenio:ext.py:171 Flask-DebugToolbar extension not installed
+ERROR    invenio:app.py:304 Failed to initialize entry point: EntryPoint(name='invenio_groups', value='invenio_users_resources.views:create_groups_resources_bp', group='invenio_base.api_blueprints')
+______________________ ERROR at setup of test_update_job _______________________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_jobs_cli>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+__________ ERROR at setup of test_job_logs_search_limits_to_max_docs ___________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_job_logs_search_limits_to_max_docs>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+------------------------------ Captured log setup ------------------------------
+WARNING  invenio:ext.py:286 JSONSCHEMAS_HOST is set to localhost
+DEBUG    invenio:ext.py:171 Flask-DebugToolbar extension not installed
+ERROR    invenio:app.py:304 Failed to initialize entry point: EntryPoint(name='invenio_groups', value='invenio_users_resources.views:create_groups_resources_bp', group='invenio_base.api_blueprints')
+_____ ERROR at setup of test_job_logs_search_returns_all_when_under_limit ______
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_job_logs_search_limits_to_max_docs>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+___________ ERROR at setup of test_job_logs_search_with_task_lineage ___________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_job_logs_search_limits_to_max_docs>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+__________________ ERROR at setup of test_create_subtask_run ___________________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_create_subtask_run>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+------------------------------ Captured log setup ------------------------------
+WARNING  invenio:ext.py:286 JSONSCHEMAS_HOST is set to localhost
+DEBUG    invenio:ext.py:171 Flask-DebugToolbar extension not installed
+ERROR    invenio:app.py:304 Failed to initialize entry point: EntryPoint(name='invenio_groups', value='invenio_users_resources.views:create_groups_resources_bp', group='invenio_base.api_blueprints')
+___________ ERROR at setup of test_create_subtask_run_invalid_parent ___________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_create_subtask_run>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+_______________ ERROR at setup of test_start_processing_subtask ________________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_create_subtask_run>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+________ ERROR at setup of test_start_processing_subtask_invalid_status ________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_create_subtask_run>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+_______________ ERROR at setup of test_finalize_subtask_success ________________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_create_subtask_run>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+_______________ ERROR at setup of test_finalize_subtask_failure ________________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_create_subtask_run>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+___________ ERROR at setup of test_finalize_subtask_partial_success ____________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_create_subtask_run>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+___________________ ERROR at setup of test_add_total_entries ___________________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_create_subtask_run>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+___________ ERROR at setup of test_add_total_entries_invalid_values ____________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_create_subtask_run>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+_____ ERROR at setup of test_finalize_subtask_with_errored_entries_message _____
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_create_subtask_run>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+___________ ERROR at setup of test_finalize_subtask_nonexistent_run ____________
+create_app = <function create_app_factory.<locals>._create_app at 0x7f4c7b74c1a0>
+app_config = {'APP_DEFAULT_SECURE_HEADERS': {'content_security_policy': {'default-src': []}, 'force_https': False}, 'APP_LOGS_PERMI...app_config.<locals>.MockPermissionPolicy'>, 'APP_THEME': ['semantic-ui'], 'BROKER_URL': 'amqp://localhost:5672//', ...}
+request = <SubRequest 'base_app' for <Function test_create_subtask_run>>
+default_handler = <StreamHandler <stderr> (NOTSET)>
+    @pytest.fixture(scope="module")
+    def base_app(create_app, app_config, request, default_handler):
+        """Base application fixture (without database, search and cache)
+        Scope: module
+        This fixture is responsible for creating the Invenio application. It
+        depends on an application factory fixture that must be defined by the user
+        .. code-block:: python
+            # confest.py
+            import pytest
+            @pytest.fixture(scope='module)
+            def create_app():
+                from invenio_app.factory import create_api
+                return create_api
+        It is possible to overide the application factory for a specific test
+        module, either by defining a fixture like above example, or simply setting
+        the ``create_app`` property on the module:
+        .. code-block:: python
+            # test_something.py
+            from invenio_app.factory import create_api
+            create_app = create_api
+            def test_acase(base_app):
+                # 
+        """
+        # Use create_app from the module if defined, otherwise use default
+        # create_app fixture
+        create_app = getattr(request.module, "create_app", create_app)
+>       app_ = create_app(**app_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_base/app.py:130: in _create_app
+    blueprint_loader(
+venv/lib/python3.14/site-packages/invenio_base/app.py:253: in blueprint_loader
+    _loader(app, loader_init_func, entry_points=entry_points, modules=modules)
+venv/lib/python3.14/site-packages/invenio_base/app.py:302: in _loader
+    init_func(ep.load())
+venv/lib/python3.14/site-packages/invenio_base/app.py:251: in loader_init_func
+    app.register_blueprint(bp, url_prefix=url_prefixes.get(bp.name))
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:595: in register_blueprint
+    blueprint.register(self, options)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:335: in register
+    deferred(state)
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:434: in <lambda>
+    lambda s: s.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/blueprints.py:110: in add_url_rule
+    self.app.add_url_rule(
+venv/lib/python3.14/site-packages/flask/sansio/scaffold.py:47: in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/sansio/app.py:653: in add_url_rule
+    self.url_map.add(rule_obj)
+venv/lib/python3.14/site-packages/werkzeug/routing/map.py:177: in add
+    rule.bind(self)
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:580: in bind
+    self.compile()
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:725: in compile
+    self._parts.extend(self._parse_rule(rule))
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:631: in _parse_rule
+    convobj = self.get_converter(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <Rule '/groups/' (HEAD, GET, OPTIONS) -> groups.read>
+variable_name = 'id', converter_name = 'str', args = (), kwargs = {}
+    def get_converter(
+        self,
+        variable_name: str,
+        converter_name: str,
+        args: tuple[t.Any, ...],
+        kwargs: t.Mapping[str, t.Any],
+    ) -> BaseConverter:
+        """Looks up the converter for the given parameter
+        .. versionadded:: 0.9
+        """
+        if converter_name not in self.map.converters:
+>           raise LookupError(f"the converter {converter_name!r} does not exist")
+E           LookupError: the converter 'str' does not exist
+venv/lib/python3.14/site-packages/werkzeug/routing/rules.py:594: LookupError
+=============================== warnings summary ===============================
+tests/test_alembic.py::test_alembic
+tests/test_cli.py::test_jobs_cli
+tests/test_services_job_logs.py::test_job_logs_search_limits_to_max_docs
+tests/test_services_subtasks.py::test_create_subtask_run
+    self.init_app(app)
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+Name                                                                       Stmts   Miss  Cover   Missing
+invenio_jobs/__init__.py                                                       3      0   100%
+invenio_jobs/administration/__init__.py                                        0      0   100%
+invenio_jobs/administration/jobs.py                                           87     24    72%   104, 108-114, 118-123, 132-137, 211-214, 229-250
+invenio_jobs/administration/runs.py                                           46     25    46%   34-49, 53-60, 64-65, 69-70
+invenio_jobs/alembic/1f896f6990b8_update_jobs_module_table_names.py           20     10    50%   21-28, 36-41
+invenio_jobs/alembic/371f4cbcb73d_create_invenio_jobs_branch.py               10      2    80%   18, 23
+invenio_jobs/alembic/9732b5f7609a_change_datetime_types.py                    17     10    41%   21-25, 30-34
+invenio_jobs/alembic/356496a01197_create_invenio_jobs_tables.py               17      4    76%   30-62, 105-106
+invenio_jobs/alembic/1753948224_add_subtasks_columns_to_jobs_run.py           31     22    29%   19-87, 98-110
+invenio_jobs/alembic/1757597048_add_run_args_column_to_jobs_job_table.py      12      2    83%   22, 41
+invenio_jobs/alembic/1764848648_add_notification_emails_and_.py               12      2    83%   20, 37
+invenio_jobs/alembic/1773910810_merge_invenio_jobs_heads.py                   10      2    80%   18, 23
+invenio_jobs/api.py                                                            4      2    50%   12-13
+invenio_jobs/cli.py                                                          230    164    29%   40-61, 66-78, 83-87, 92-95, 100-104, 112-119, 131-143, 150-170, 182-207, 216-231, 239-264, 269-283, 288-315, 324-346, 354-365, 377, 394-423
+invenio_jobs/config.py                                                        32      0   100%
+invenio_jobs/errors.py                                                        11      3    73%   16-18
+invenio_jobs/ext.py                                                           57     15    74%   80-83, 88, 93, 102, 107, 112-120
+invenio_jobs/jobs.py                                                          33     12    64%   61-63, 85, 97-118
+invenio_jobs/logging/__init__.py                                               0      0   100%
+invenio_jobs/logging/celery_signals.py                                        22     14    36%   18-21, 30-41, 48-52
+invenio_jobs/logging/index_templates/__init__.py                               0      0   100%
+invenio_jobs/logging/index_templates/os-v1/__init__.py                         0      0   100%
+invenio_jobs/logging/index_templates/os-v2/__init__.py                         0      0   100%
+invenio_jobs/logging/jobs.py                                                  64     19    70%   37-38, 42-54, 58-59, 65-69, 78-79, 95, 116-118, 122-123
+invenio_jobs/logging/tasks.py                                                  8      2    75%   15-16
+invenio_jobs/models.py                                                       145     55    62%   36, 40, 61-62, 67-73, 78-81, 88-96, 104-108, 112, 144-145, 198-210, 215-222, 226-232, 242, 247, 252-254, 259, 264
+invenio_jobs/proxies.py                                                       12      0   100%
+invenio_jobs/registry.py                                                      26     17    35%   16-20, 24, 28-31, 35, 40-45
+invenio_jobs/resources/__init__.py                                             3      0   100%
+invenio_jobs/resources/config.py                                              57      0   100%
+invenio_jobs/resources/resources.py                                          126     50    60%   29-35, 44-49, 54-59, 72-81, 90-95, 101-105, 111-115, 123-128, 134-138, 151-161, 171-177, 184-189, 195-200, 206-213, 219-225, 233-239, 245-251, 264-269, 276-283
+invenio_jobs/services/__init__.py                                              4      0   100%
+invenio_jobs/services/config.py                                               79      0   100%
+invenio_jobs/services/errors.py                                               22     11    50%   16-17, 25, 33-40, 48-50, 64
+invenio_jobs/services/links.py                                                22      4    82%   22, 38, 62-63
+invenio_jobs/services/permissions.py                                          25      0   100%
+invenio_jobs/services/results.py                                             100     68    32%   35, 44-66, 75-79, 84-91, 97-100, 105-119, 128-147, 156-168, 172-193
+invenio_jobs/services/scheduler.py                                            55     31    44%   27-28, 33-35, 55, 62, 66-67, 71-90, 95-102, 109-115
+invenio_jobs/services/schema.py                                              188     58    69%   50-55, 106-107, 124-126, 130-133, 137-141, 207-219, 224-231, 236-240, 245-253, 286, 378-381, 411-418
+invenio_jobs/services/services.py                                            254    198    22%   50, 58-62, 67-70, 75-81, 89-91, 96-107, 111-139, 150-152, 157-173, 178-185, 193-195, 199-234, 251-255, 263-295, 300-323, 328-348, 355-365, 380-482, 487-501, 506-512, 517-527, 535-606
+invenio_jobs/services/ui_schema.py                                            19      0   100%
+invenio_jobs/tasks.py                                                         71     57    20%   25-53, 59-156
+invenio_jobs/utils.py                                                         53     40    25%   19-30, 35-46, 54, 65-179
+invenio_jobs/views.py                                                         14      8    43%   18-19, 24-25, 30-31, 36-37
+invenio_jobs/webpack.py                                                        2      0   100%
+TOTAL                                                                       2003    931    54%
+=========================== short test summary info ============================
+ERROR tests/resources/test_resources.py::test_simple_flow - LookupError: the converter 'str' does not exist
+ERROR tests/resources/test_resources.py::test_jobs_create - LookupError: the converter 'str' does not exist
+ERROR tests/resources/test_resources.py::test_jobs_update - LookupError: the converter 'str' does not exist
+ERROR tests/resources/test_resources.py::test_jobs_search - LookupError: the converter 'str' does not exist
+ERROR tests/resources/test_resources.py::test_jobs_delete - LookupError: the converter 'str' does not exist
+ERROR tests/test_alembic.py::test_alembic - LookupError: the converter 'str' does not exist
+ERROR tests/test_cli.py::test_jobs_cli - LookupError: the converter 'str' does not exist
+ERROR tests/test_cli.py::test_update_job - LookupError: the converter 'str' does not exist
+ERROR tests/test_services_job_logs.py::test_job_logs_search_limits_to_max_docs - LookupError: the converter 'str' does not exist
+ERROR tests/test_services_job_logs.py::test_job_logs_search_returns_all_when_under_limit - LookupError: the converter 'str' does not exist
+ERROR tests/test_services_job_logs.py::test_job_logs_search_with_task_lineage - LookupError: the converter 'str' does not exist
+ERROR tests/test_services_subtasks.py::test_create_subtask_run - LookupError: the converter 'str' does not exist
+ERROR tests/test_services_subtasks.py::test_create_subtask_run_invalid_parent - LookupError: the converter 'str' does not exist
+ERROR tests/test_services_subtasks.py::test_start_processing_subtask - LookupError: the converter 'str' does not exist
+ERROR tests/test_services_subtasks.py::test_start_processing_subtask_invalid_status - LookupError: the converter 'str' does not exist
+ERROR tests/test_services_subtasks.py::test_finalize_subtask_success - LookupError: the converter 'str' does not exist
+ERROR tests/test_services_subtasks.py::test_finalize_subtask_failure - LookupError: the converter 'str' does not exist
+ERROR tests/test_services_subtasks.py::test_finalize_subtask_partial_success - LookupError: the converter 'str' does not exist
+ERROR tests/test_services_subtasks.py::test_add_total_entries - LookupError: the converter 'str' does not exist
+ERROR tests/test_services_subtasks.py::test_add_total_entries_invalid_values - LookupError: the converter 'str' does not exist
+ERROR tests/test_services_subtasks.py::test_finalize_subtask_with_errored_entries_message - LookupError: the converter 'str' does not exist
+ERROR tests/test_services_subtasks.py::test_finalize_subtask_nonexistent_run - LookupError: the converter 'str' does not exist
+============ 167 passed, 2 skipped, 4 warnings, 22 errors in 17.63s ============
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

@@ -1,0 +1,6 @@
+{
+  "DeprecationWarning: subject_nested is deprecated. Use subject_combined instead.": 1,
+  "FutureWarning: CSRF validation will be enabled by default in the version 1.3.x": 1,
+  "RuntimeWarning: You are overriding the default OAuthlib \"URL encoded\" set of valid characters. Make sure that the characters defined in oauthlib.common.urlencoded are indeed limitting your needs.": 1,
+  "UserWarning: OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module tests.records.mock_module.mappings. Please add the missing OpenSearch os-v2 mappings.": 1
+}

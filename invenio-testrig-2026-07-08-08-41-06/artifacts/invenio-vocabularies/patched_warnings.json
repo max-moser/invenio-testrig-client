@@ -1,0 +1,7 @@
+{
+  "UserWarning: OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module mock_module.mappings. Please add the missing OpenSearch os-v2 mappings.": 2,
+  "FutureWarning: CSRF validation will be enabled by default in the version 1.3.x": 2,
+  "PytestCollectionWarning: cannot collect test class 'TestReader' because it has a __init__ constructor (from: tests/resources/test_tasks_resources.py)": 1,
+  "PytestCollectionWarning: cannot collect test class 'TestWriter' because it has a __init__ constructor (from: tests/resources/test_tasks_resources.py)": 1,
+  "UserWarning: In ModePIDFieldVocabularyMixin the context_schema is not defined, check why not!": 1
+}
