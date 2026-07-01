@@ -1,0 +1,228 @@
+extracting messages from invenio_previewer/__init__.py (encoding="utf-8")
+extracting messages from invenio_previewer/api.py (encoding="utf-8")
+extracting messages from invenio_previewer/config.py (encoding="utf-8")
+extracting messages from invenio_previewer/ext.py (encoding="utf-8")
+extracting messages from invenio_previewer/proxies.py (encoding="utf-8")
+extracting messages from invenio_previewer/utils.py (encoding="utf-8")
+extracting messages from invenio_previewer/views.py (encoding="utf-8")
+extracting messages from invenio_previewer/webpack.py (encoding="utf-8")
+extracting messages from invenio_previewer/assets/bootstrap3/js/invenio_previewer/geojson.js (encoding="utf-8", extract_messages="$._, jQuery._")
+extracting messages from invenio_previewer/assets/bootstrap3/js/invenio_previewer/previewer_theme.js (encoding="utf-8", extract_messages="$._, jQuery._")
+extracting messages from invenio_previewer/assets/bootstrap3/js/invenio_previewer/prismjs.js (encoding="utf-8", extract_messages="$._, jQuery._")
+extracting messages from invenio_previewer/assets/bootstrap3/js/invenio_previewer/csv_previewer/init.js (encoding="utf-8", extract_messages="$._, jQuery._")
+extracting messages from invenio_previewer/assets/semantic-ui/js/invenio_previewer/bottom.js (encoding="utf-8", extract_messages="$._, jQuery._")
+extracting messages from invenio_previewer/assets/semantic-ui/js/invenio_previewer/geojson.js (encoding="utf-8", extract_messages="$._, jQuery._")
+extracting messages from invenio_previewer/assets/semantic-ui/js/invenio_previewer/previewer_theme.js (encoding="utf-8", extract_messages="$._, jQuery._")
+extracting messages from invenio_previewer/assets/semantic-ui/js/invenio_previewer/prismjs.js (encoding="utf-8", extract_messages="$._, jQuery._")
+extracting messages from invenio_previewer/assets/semantic-ui/js/invenio_previewer/csv_previewer/init.js (encoding="utf-8", extract_messages="$._, jQuery._")
+extracting messages from invenio_previewer/extensions/__init__.py (encoding="utf-8")
+extracting messages from invenio_previewer/extensions/audio_videojs.py (encoding="utf-8")
+extracting messages from invenio_previewer/extensions/csv_papaparsejs.py (encoding="utf-8")
+extracting messages from invenio_previewer/extensions/default.py (encoding="utf-8")
+extracting messages from invenio_previewer/extensions/ipynb.py (encoding="utf-8")
+extracting messages from invenio_previewer/extensions/json_prismjs.py (encoding="utf-8")
+extracting messages from invenio_previewer/extensions/mistune.py (encoding="utf-8")
+extracting messages from invenio_previewer/extensions/pdfjs.py (encoding="utf-8")
+extracting messages from invenio_previewer/extensions/simple_image.py (encoding="utf-8")
+extracting messages from invenio_previewer/extensions/txt.py (encoding="utf-8")
+extracting messages from invenio_previewer/extensions/video_videojs.py (encoding="utf-8")
+extracting messages from invenio_previewer/extensions/web_archive.py (encoding="utf-8")
+extracting messages from invenio_previewer/extensions/xml_prismjs.py (encoding="utf-8")
+extracting messages from invenio_previewer/extensions/zip.py (encoding="utf-8")
+extracting messages from invenio_previewer/static/js/fullscreen.js (encoding="utf-8", extract_messages="$._, jQuery._")
+extracting messages from invenio_previewer/static/js/open_pdf.js (encoding="utf-8", extract_messages="$._, jQuery._")
+extracting messages from invenio_previewer/templates/invenio_previewer/abstract_previewer.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/base.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/bottom.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/csv_bar.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/default.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/geojson.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/ipynb.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/json_prismjs.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/macros.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/mistune.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/pdfjs.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/simple_image.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/top.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/txt.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/web_archive.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/xml_prismjs.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/invenio_previewer/zip.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/abstract_previewer.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/audio_videojs.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/base.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/bottom.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/csv_bar.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/default.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/geojson.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/ipynb.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/json_prismjs.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/macros.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/mistune.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/simple_image.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/top.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/txt.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/videojs.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/web_archive.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/xml_prismjs.html (encoding="utf-8")
+extracting messages from invenio_previewer/templates/semantic-ui/invenio_previewer/zip.html (encoding="utf-8")
+writing PO template file to /dev/null
+ Image postgres:16.2 Pulling 
+ cb628c265f09 Pulling fs layer 0B
+ 283a477db7bb Pulling fs layer 0B
+ 91d2729fa4d5 Pulling fs layer 0B
+ b0a0cf830b12 Pulling fs layer 0B
+ 9739ced65621 Pulling fs layer 0B
+ c199bff16b05 Pulling fs layer 0B
+ dda3d8fbd5ed Pulling fs layer 0B
+ ae3bb1b347a4 Pulling fs layer 0B
+ e0d55fdb4d15 Pulling fs layer 0B
+ f8406d9c00ea Pulling fs layer 0B
+ 873532e5f8c7 Pulling fs layer 0B
+ 050d9f8c3b1c Pulling fs layer 0B
+ c1cb13b19080 Pulling fs layer 0B
+ 710e142705f8 Pulling fs layer 0B
+ 710e142705f8 Download complete 0B
+ 56b5e4f0933d Download complete 0B
+ 283a477db7bb Download complete 0B
+ 91d2729fa4d5 Download complete 0B
+ 5682dec5b749 Download complete 0B
+ dda3d8fbd5ed Download complete 0B
+ c1cb13b19080 Download complete 0B
+ 873532e5f8c7 Download complete 0B
+ 050d9f8c3b1c Download complete 0B
+ cb628c265f09 Download complete 0B
+ c199bff16b05 Download complete 0B
+ f8406d9c00ea Download complete 0B
+ e0d55fdb4d15 Downloading 14.68MB
+ 9739ced65621 Download complete 0B
+ ae3bb1b347a4 Download complete 0B
+ b0a0cf830b12 Downloading 16.78MB
+ b0a0cf830b12 Download complete 0B
+ e0d55fdb4d15 Downloading 35.65MB
+ b0a0cf830b12 Extracting 1B
+ e0d55fdb4d15 Downloading 61.87MB
+ b0a0cf830b12 Extracting 1B
+ e0d55fdb4d15 Downloading 87.03MB
+ b0a0cf830b12 Extracting 1B
+ e0d55fdb4d15 Download complete 0B
+ b0a0cf830b12 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ 283a477db7bb Extracting 1B
+ dda3d8fbd5ed Pull complete 0B
+ b0a0cf830b12 Pull complete 0B
+ 283a477db7bb Pull complete 0B
+ 91d2729fa4d5 Pull complete 0B
+ 9739ced65621 Extracting 1B
+ 9739ced65621 Extracting 1B
+ c199bff16b05 Pull complete 0B
+ f8406d9c00ea Pull complete 0B
+ 9739ced65621 Pull complete 0B
+ ae3bb1b347a4 Pull complete 0B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Pull complete 0B
+ 710e142705f8 Pull complete 0B
+ c1cb13b19080 Pull complete 0B
+ 873532e5f8c7 Pull complete 0B
+ 050d9f8c3b1c Pull complete 0B
+ cb628c265f09 Pull complete 0B
+ Image postgres:16.2 Pulled 
+ Network docker_services_cli_default Creating 
+ Network docker_services_cli_default Created 
+ Container docker_services_cli-postgresql-1 Creating 
+ Container docker_services_cli-postgresql-1 Created 
+ Container docker_services_cli-postgresql-1 Starting 
+ Container docker_services_cli-postgresql-1 Started 
+============================= test session starts ==============================
+platform linux -- Python 3.14.10, pytest-8.4.2, pluggy-1.7.0
+rootdir: /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-previewer/original
+configfile: pyproject.toml
+testpaths: tests, invenio_previewer
+plugins: github-actions-annotate-failures-0.4.2, black-0.6.0, isort-4.0.0, flask-1.3.0, pydocstyle-2.4.0, invenio-4.0.3, cov-7.1.0, pycodestyle-2.5.0, platformdirs-4.14.3
+collected 163 items
+
+tests/conftest.py ...                                                    [  1%]
+tests/test_invenio_previewer.py .......                                  [  6%]
+tests/test_macros.py ...............................                     [ 25%]
+tests/test_utils.py .............                                        [ 33%]
+tests/test_views.py ................                                     [ 42%]
+tests/test_zip_previewer.py ...........................                  [ 59%]
+invenio_previewer/__init__.py ...                                        [ 61%]
+invenio_previewer/api.py ...                                             [ 63%]
+invenio_previewer/config.py ...                                          [ 65%]
+invenio_previewer/ext.py ...                                             [ 66%]
+invenio_previewer/extensions/__init__.py ...                             [ 68%]
+invenio_previewer/extensions/audio_videojs.py ...                        [ 70%]
+invenio_previewer/extensions/csv_papaparsejs.py ...                      [ 72%]
+invenio_previewer/extensions/default.py ...                              [ 74%]
+invenio_previewer/extensions/ipynb.py ...                                [ 76%]
+invenio_previewer/extensions/json_prismjs.py ...                         [ 77%]
+invenio_previewer/extensions/mistune.py ...                              [ 79%]
+invenio_previewer/extensions/pdfjs.py ...                                [ 81%]
+invenio_previewer/extensions/simple_image.py ...                         [ 83%]
+invenio_previewer/extensions/txt.py ...                                  [ 85%]
+invenio_previewer/extensions/video_videojs.py ...                        [ 87%]
+invenio_previewer/extensions/web_archive.py ...                          [ 88%]
+invenio_previewer/extensions/xml_prismjs.py ...                          [ 90%]
+invenio_previewer/extensions/zip.py ...                                  [ 92%]
+invenio_previewer/proxies.py ...                                         [ 94%]
+invenio_previewer/utils.py ...                                           [ 96%]
+invenio_previewer/views.py ...                                           [ 98%]
+invenio_previewer/webpack.py ...                                         [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.10-final-0 _______________
+
+Name                                              Stmts   Miss  Cover   Missing
+-------------------------------------------------------------------------------
+invenio_previewer/__init__.py                         4      0   100%
+invenio_previewer/api.py                             26      1    96%   36
+invenio_previewer/config.py                          36      0   100%
+invenio_previewer/ext.py                             96      9    91%   18, 20, 53-56, 78-81
+invenio_previewer/extensions/__init__.py              0      0   100%
+invenio_previewer/extensions/audio_videojs.py         9      2    78%   29-37
+invenio_previewer/extensions/csv_papaparsejs.py      12      1    92%   17
+invenio_previewer/extensions/default.py               7      1    86%   15
+invenio_previewer/extensions/ipynb.py                39      2    95%   32-33
+invenio_previewer/extensions/json_prismjs.py         38      0   100%
+invenio_previewer/extensions/mistune.py              19      0   100%
+invenio_previewer/extensions/pdfjs.py                 7      0   100%
+invenio_previewer/extensions/simple_image.py         11      0   100%
+invenio_previewer/extensions/txt.py                  13      0   100%
+invenio_previewer/extensions/video_videojs.py         9      2    78%   26-33
+invenio_previewer/extensions/web_archive.py           7      0   100%
+invenio_previewer/extensions/xml_prismjs.py          30      4    87%   27, 39, 46-47
+invenio_previewer/extensions/zip.py                  61      1    98%   51
+invenio_previewer/proxies.py                          4      0   100%
+invenio_previewer/utils.py                           20      0   100%
+invenio_previewer/views.py                           25      2    92%   44, 80
+invenio_previewer/webpack.py                          3      0   100%
+-------------------------------------------------------------------------------
+TOTAL                                               476     25    95%
+======================= 163 passed in 111.36s (0:01:51) ========================
+ Container docker_services_cli-postgresql-1 Stopping 
+ Container docker_services_cli-postgresql-1 Stopped 
+ Container docker_services_cli-postgresql-1 Removing 
+ Container docker_services_cli-postgresql-1 Removed 
+ Network docker_services_cli_default Removing 
+ Network docker_services_cli_default Removed 

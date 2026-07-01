@@ -1,0 +1,281 @@
+ Image postgres:16.2 Pulling 
+ b0a0cf830b12 Pulling fs layer 0B
+ c1cb13b19080 Pulling fs layer 0B
+ 710e142705f8 Pulling fs layer 0B
+ f8406d9c00ea Pulling fs layer 0B
+ 9739ced65621 Pulling fs layer 0B
+ e0d55fdb4d15 Pulling fs layer 0B
+ 050d9f8c3b1c Pulling fs layer 0B
+ cb628c265f09 Pulling fs layer 0B
+ 873532e5f8c7 Pulling fs layer 0B
+ 283a477db7bb Pulling fs layer 0B
+ 91d2729fa4d5 Pulling fs layer 0B
+ c199bff16b05 Pulling fs layer 0B
+ dda3d8fbd5ed Pulling fs layer 0B
+ ae3bb1b347a4 Pulling fs layer 0B
+ f8406d9c00ea Download complete 0B
+ c199bff16b05 Download complete 0B
+ b0a0cf830b12 Downloading 11.53MB
+ cb628c265f09 Download complete 0B
+ dda3d8fbd5ed Download complete 0B
+ 050d9f8c3b1c Download complete 0B
+ 873532e5f8c7 Download complete 0B
+ 91d2729fa4d5 Downloading 1.049MB
+ ae3bb1b347a4 Download complete 0B
+ c1cb13b19080 Downloading 9.925kB
+ 710e142705f8 Download complete 0B
+ c1cb13b19080 Download complete 0B
+ b0a0cf830b12 Downloading 29.15MB
+ 283a477db7bb Download complete 0B
+ e0d55fdb4d15 Downloading 18.87MB
+ 9739ced65621 Download complete 0B
+ 91d2729fa4d5 Download complete 0B
+ 56b5e4f0933d Downloading 55.24kB
+ b0a0cf830b12 Download complete 0B
+ 5682dec5b749 Download complete 0B
+ e0d55fdb4d15 Downloading 44.04MB
+ 56b5e4f0933d Download complete 0B
+ b0a0cf830b12 Extracting 1B
+ e0d55fdb4d15 Downloading 69.21MB
+ b0a0cf830b12 Extracting 1B
+ e0d55fdb4d15 Downloading 96.47MB
+ b0a0cf830b12 Extracting 1B
+ e0d55fdb4d15 Download complete 0B
+ b0a0cf830b12 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ dda3d8fbd5ed Pull complete 0B
+ 283a477db7bb Extracting 1B
+ b0a0cf830b12 Pull complete 0B
+ 283a477db7bb Pull complete 0B
+ 91d2729fa4d5 Extracting 1B
+ 9739ced65621 Extracting 1B
+ 91d2729fa4d5 Pull complete 0B
+ ae3bb1b347a4 Extracting 1B
+ 9739ced65621 Pull complete 0B
+ f8406d9c00ea Pull complete 0B
+ c199bff16b05 Pull complete 0B
+ ae3bb1b347a4 Pull complete 0B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ 050d9f8c3b1c Extracting 1B
+ 873532e5f8c7 Pull complete 0B
+ c1cb13b19080 Pull complete 0B
+ e0d55fdb4d15 Pull complete 0B
+ cb628c265f09 Pull complete 0B
+ 050d9f8c3b1c Pull complete 0B
+ 710e142705f8 Pull complete 0B
+ Image postgres:16.2 Pulled 
+ Network docker_services_cli_default Creating 
+ Network docker_services_cli_default Created 
+ Container docker_services_cli-postgresql-1 Creating 
+ Container docker_services_cli-postgresql-1 Created 
+ Container docker_services_cli-postgresql-1 Starting 
+ Container docker_services_cli-postgresql-1 Started 
+============================= test session starts ==============================
+platform linux -- Python 3.14.10, pytest-8.4.2, pluggy-1.7.0
+rootdir: /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-files/original
+configfile: pyproject.toml
+testpaths: tests, invenio_records_files
+plugins: github-actions-annotate-failures-0.4.2, black-0.6.0, isort-4.0.0, flask-1.3.0, pydocstyle-2.4.0, invenio-4.0.3, cov-7.1.0, pycodestyle-2.5.0, platformdirs-4.14.3
+collected 98 items
+
+tests/conftest.py ...                                                    [  3%]
+tests/data/__init__.py ...                                               [  6%]
+tests/data/v6/__init__.py ...                                            [  9%]
+tests/data/v7/__init__.py ...                                            [ 12%]
+tests/test_alembic.py ...::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/alembic/config.py,line=572::No path_separator found in configuration; falling back to legacy splitting on spaces/commas for version_locations.  Consider adding path_separator=os to Alembic config.
+                                                [ 15%]
+tests/test_api.py ...::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_files_rest/models.py,line=714::Object of type <ObjectVersion> not in session, add operation along 'Bucket.objects' will not proceed (This warning originated from the Session 'autoflush' process, which was invoked automatically in response to a user-initiated operation. Consider using ``no_autoflush`` context manager if this warning happened while initializing objects.)
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+                                     [ 33%]
+tests/test_invenio_records_files.py ....s                                [ 38%]
+tests/test_links.py ...::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/tests/test_links.py,line=28::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/tests/test_links.py,line=44::nested transaction already deassociated from connection
+                                                [ 43%]
+tests/test_models.py ...::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=410::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=463::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=410::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=463::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+                                               [ 48%]
+tests/test_utils.py ...::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=410::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+                                                 [ 53%]
+tests/test_views.py ...::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-records-files/original/tests/conftest.py,line=177::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-records-files/original/invenio_records_files/serializer.py,line=59::Schema().dump().data and Schema().dump().errors as well as Schema().load().data and Schema().loads().dataattributes are deprecated in marshmallow v3.x.
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-records-files/original/tests/conftest.py,line=188::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-records-files/original/tests/conftest.py,line=188::nested transaction already deassociated from connection
+.::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py,line=123::OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+                                               [ 59%]
+invenio_records_files/__init__.py ....::warning file=workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=302::nested transaction already deassociated from connection
+                                   [ 63%]
+invenio_records_files/alembic/1ba76da94103_create_records_files_tables.py . [ 64%]
+..                                                                       [ 66%]
+invenio_records_files/alembic/2da9a03b0833_create_records_files_branch.py . [ 67%]
+..                                                                       [ 69%]
+invenio_records_files/alembic/4a5d5b4d4c2f_create_bucket_id_index.py ... [ 72%]
+                                                                         [ 72%]
+invenio_records_files/api.py ...                                         [ 75%]
+invenio_records_files/config.py ...                                      [ 78%]
+invenio_records_files/ext.py ...                                         [ 81%]
+invenio_records_files/jsonschemas/__init__.py ...                        [ 84%]
+invenio_records_files/links.py ...                                       [ 87%]
+invenio_records_files/models.py ...                                      [ 90%]
+invenio_records_files/serializer.py ...                                  [ 93%]
+invenio_records_files/utils.py ...                                       [ 96%]
+invenio_records_files/views.py ...                                       [100%]
+
+=============================== warnings summary ===============================
+tests/test_alembic.py: 1 warning
+tests/test_api.py: 16 warnings
+tests/test_links.py: 3 warnings
+tests/test_models.py: 3 warnings
+tests/test_utils.py: 2 warnings
+tests/test_views.py: 4 warnings
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_search/ext.py:123: UserWarning: OpenSearch v2 mappings files not found, falling back to Elasticsearch v7 mappings for module data. Please add the missing OpenSearch os-v2 mappings.
+    warnings.warn(
+
+tests/test_alembic.py::test_alembic
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/alembic/config.py:572: DeprecationWarning: No path_separator found in configuration; falling back to legacy splitting on spaces/commas for version_locations.  Consider adding path_separator=os to Alembic config.
+    util.warn_deprecated(
+
+tests/test_api.py: 15 warnings
+tests/test_links.py: 1 warning
+tests/test_models.py: 3 warnings
+tests/test_utils.py: 2 warnings
+tests/test_views.py: 3 warnings
+invenio_records_files/__init__.py: 1 warning
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py:302: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/test_api.py::test_files_property
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_files_rest/models.py:714: SAWarning: Object of type <ObjectVersion> not in session, add operation along 'Bucket.objects' will not proceed (This warning originated from the Session 'autoflush' process, which was invoked automatically in response to a user-initiated operation. Consider using ``no_autoflush`` context manager if this warning happened while initializing objects.)
+    return db.session.query(cls).filter_by(id=file_id).one_or_none()
+
+tests/test_links.py::test_bucket_link_factory_has_bucket
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-files/original/tests/test_links.py:28: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/test_links.py::test_record_files_link_factory
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-files/original/tests/test_links.py:44: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/test_models.py::test_cascade_action_record_delete[False-1]
+tests/test_models.py::test_cascade_action_record_delete[True-0]
+tests/test_utils.py::test_file_download_ui
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py:410: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/test_models.py::test_cascade_action_record_delete[False-1]
+tests/test_models.py::test_cascade_action_record_delete[True-0]
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-files/original/.venv/lib/python3.14/site-packages/invenio_records/api.py:463: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/test_views.py::test_records_files_rest_integration
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-files/original/tests/conftest.py:177: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/test_views.py::test_records_files_rest_integration
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-files/original/invenio_records_files/serializer.py:59: PendingDeprecationWarning: Schema().dump().data and Schema().dump().errors as well as Schema().load().data and Schema().loads().dataattributes are deprecated in marshmallow v3.x.
+    RecordBucketSchema().dump(bucket, context=context_schema.get()).data
+
+tests/test_views.py::test_record_without_bucket
+tests/test_views.py::test_record_no_files
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-files/original/tests/conftest.py:188: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.10-final-0 _______________
+
+Name                                                                        Stmts   Miss  Cover   Missing
+---------------------------------------------------------------------------------------------------------
+invenio_records_files/__init__.py                                               4      0   100%
+invenio_records_files/alembic/1ba76da94103_create_records_files_tables.py      11      0   100%
+invenio_records_files/alembic/2da9a03b0833_create_records_files_branch.py       8      0   100%
+invenio_records_files/alembic/4a5d5b4d4c2f_create_bucket_id_index.py            9      0   100%
+invenio_records_files/api.py                                                  158      0   100%
+invenio_records_files/config.py                                                 2      0   100%
+invenio_records_files/ext.py                                                   13      0   100%
+invenio_records_files/jsonschemas/__init__.py                                   0      0   100%
+invenio_records_files/links.py                                                 16      0   100%
+invenio_records_files/models.py                                                20      0   100%
+invenio_records_files/serializer.py                                            36      0   100%
+invenio_records_files/utils.py                                                 29      0   100%
+invenio_records_files/views.py                                                 50      2    96%   114, 154
+---------------------------------------------------------------------------------------------------------
+TOTAL                                                                         356      2    99%
+================= 97 passed, 1 skipped, 67 warnings in 15.63s ==================
+ Container docker_services_cli-postgresql-1 Stopping 
+ Container docker_services_cli-postgresql-1 Stopped 
+ Container docker_services_cli-postgresql-1 Removing 
+ Container docker_services_cli-postgresql-1 Removed 
+ Network docker_services_cli_default Removing 
+ Network docker_services_cli_default Removed 

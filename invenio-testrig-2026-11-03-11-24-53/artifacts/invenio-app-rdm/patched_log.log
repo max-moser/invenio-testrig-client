@@ -1,0 +1,1054 @@
+ Image opensearchproject/opensearch:2.16.0 Pulling 
+ Image redis:7 Pulling 
+ Image rabbitmq:3-management Pulling 
+ Image postgres:16.2 Pulling 
+ d6aecb83344b Pulling fs layer 0B
+ 142efe7e4cd9 Pulling fs layer 0B
+ f4ff9d4e92de Pulling fs layer 0B
+ 3c5439d0ae62 Pulling fs layer 0B
+ 742179fec703 Pulling fs layer 0B
+ a9bd82aed298 Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ 2e81b9cb93cd Pulling fs layer 0B
+ e8c6d4883897 Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ 648eb81b3252 Pulling fs layer 0B
+ 0ffa8f8aba1e Pulling fs layer 0B
+ f9dd052e142d Pulling fs layer 0B
+ eb77aa907276 Pulling fs layer 0B
+ d686b50ce172 Pulling fs layer 0B
+ efa05c660812 Pulling fs layer 0B
+ beb0d870d438 Pulling fs layer 0B
+ 7084ac8f4ab6 Pulling fs layer 0B
+ 5e1c03b67a78 Pulling fs layer 0B
+ 20043066d3d5 Pulling fs layer 0B
+ f4e7f62f4b80 Pulling fs layer 0B
+ 3fadc669ef11 Pulling fs layer 0B
+ d63c4408fdb7 Pulling fs layer 0B
+ 14e6209d5fa8 Pulling fs layer 0B
+ b0a0cf830b12 Pulling fs layer 0B
+ 050d9f8c3b1c Pulling fs layer 0B
+ c199bff16b05 Pulling fs layer 0B
+ e0d55fdb4d15 Pulling fs layer 0B
+ 710e142705f8 Pulling fs layer 0B
+ 283a477db7bb Pulling fs layer 0B
+ dda3d8fbd5ed Pulling fs layer 0B
+ f8406d9c00ea Pulling fs layer 0B
+ 91d2729fa4d5 Pulling fs layer 0B
+ c1cb13b19080 Pulling fs layer 0B
+ ae3bb1b347a4 Pulling fs layer 0B
+ 873532e5f8c7 Pulling fs layer 0B
+ cb628c265f09 Pulling fs layer 0B
+ 9739ced65621 Pulling fs layer 0B
+ c199bff16b05 Downloading 3.145kB
+ a9bd82aed298 Downloading 1.101kB
+ 0ffa8f8aba1e Downloading 226B
+ 2e81b9cb93cd Downloading 1.859kB
+ 4f4fb700ef54 Already exists 0B
+ d6aecb83344b Download complete 0B
+ 4f4fb700ef54 Already exists 0B
+ 5e1c03b67a78 Downloading 620B
+ f4e7f62f4b80 Downloading 109B
+ beb0d870d438 Downloading 9.462kB
+ 14e6209d5fa8 Downloading 833B
+ d686b50ce172 Downloading 2.097MB
+ efa05c660812 Downloading 189B
+ 648eb81b3252 Downloading 1.561kB
+ 0ffa8f8aba1e Downloading 226B
+ f9dd052e142d Downloading 1.049MB
+ 2e81b9cb93cd Downloading 1.859kB
+ 742179fec703 Downloading 1.049MB
+ a9bd82aed298 Downloading 1.101kB
+ 142efe7e4cd9 Downloading 876B
+ f4ff9d4e92de Downloading 97B
+ 3c5439d0ae62 Downloading 2.097MB
+ cb628c265f09 Downloading 184B
+ 050d9f8c3b1c Downloading 169B
+ f8406d9c00ea Downloading 116B
+ c199bff16b05 Downloading 3.145kB
+ e0d55fdb4d15 Downloading 1.049MB
+ 710e142705f8 Downloading 5.421kB
+ d686b50ce172 Downloading 6.291MB
+ d63c4408fdb7 Downloading 3.146MB
+ 3fadc669ef11 Downloading 4.194MB
+ c1cb13b19080 Download complete 0B
+ f9dd052e142d Downloading 5.243MB
+ 742179fec703 Downloading 5.243MB
+ cb628c265f09 Download complete 0B
+ 2e81b9cb93cd Download complete 0B
+ eb77aa907276 Downloading 3.146MB
+ e8c6d4883897 Downloading 3.146MB
+ a9bd82aed298 Download complete 0B
+ efa05c660812 Download complete 0B
+ 7084ac8f4ab6 Downloading 2.097MB
+ 648eb81b3252 Download complete 0B
+ 050d9f8c3b1c Download complete 0B
+ 142efe7e4cd9 Download complete 0B
+ 0ffa8f8aba1e Download complete 0B
+ 5e1c03b67a78 Download complete 0B
+ f8406d9c00ea Download complete 0B
+ f4ff9d4e92de Download complete 0B
+ c199bff16b05 Download complete 0B
+ e0d55fdb4d15 Downloading 5.243MB
+ 283a477db7bb Downloading 2.097MB
+ f4e7f62f4b80 Download complete 0B
+ 20043066d3d5 Downloading 4.194MB
+ 3c5439d0ae62 Downloading 6.291MB
+ beb0d870d438 Download complete 0B
+ 710e142705f8 Download complete 0B
+ dda3d8fbd5ed Download complete 0B
+ 91d2729fa4d5 Downloading 1.45MB
+ 14e6209d5fa8 Download complete 0B
+ eb77aa907276 Downloading 8.389MB
+ e8c6d4883897 Download complete 0B
+ f9dd052e142d Downloading 11.53MB
+ 742179fec703 Downloading 11.53MB
+ 3514c8733835 Download complete 0B
+ 3c5439d0ae62 Downloading 11.53MB
+ 20043066d3d5 Downloading 9.437MB
+ b0a0cf830b12 Downloading 5.243MB
+ e0d55fdb4d15 Downloading 10.49MB
+ d686b50ce172 Downloading 11.53MB
+ d63c4408fdb7 Downloading 9.437MB
+ 3fadc669ef11 Downloading 9.437MB
+ 7084ac8f4ab6 Downloading 7.468MB
+ 283a477db7bb Download complete 0B
+ ae3bb1b347a4 Downloading 1.196MB
+ 873532e5f8c7 Download complete 0B
+ 91d2729fa4d5 Download complete 0B
+ 9739ced65621 Downloading 1.049MB
+ e0d55fdb4d15 Downloading 14.68MB
+ 3c5439d0ae62 Downloading 15.73MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ f9dd052e142d Downloading 14.68MB
+ d686b50ce172 Download complete 0B
+ d63c4408fdb7 Downloading 12.58MB
+ 3fadc669ef11 Downloading 13.63MB
+ 16ef6b12768c Downloading 1.049MB
+ ae3bb1b347a4 Download complete 0B
+ eb77aa907276 Downloading 12.58MB
+ 7084ac8f4ab6 Download complete 0B
+ 20043066d3d5 Downloading 14.68MB
+ 9739ced65621 Downloading 4.194MB
+ b0a0cf830b12 Downloading 9.437MB
+ 9739ced65621 Downloading 7.34MB
+ b0a0cf830b12 Downloading 12.58MB
+ 3c5439d0ae62 Downloading 18.87MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ f9dd052e142d Downloading 17.83MB
+ eb77aa907276 Downloading 15.73MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 17.83MB
+ e0d55fdb4d15 Downloading 17.83MB
+ d63c4408fdb7 Downloading 15.73MB
+ 3fadc669ef11 Downloading 16.78MB
+ 16ef6b12768c Downloading 3.088MB
+ e0d55fdb4d15 Downloading 26.21MB
+ 3fadc669ef11 Downloading 26.21MB
+ 16ef6b12768c Downloading 3.088MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 26.21MB
+ d63c4408fdb7 Downloading 21.31MB
+ f9dd052e142d Downloading 26.21MB
+ eb77aa907276 Downloading 26.21MB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 19.92MB
+ 3c5439d0ae62 Downloading 27.26MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ d63c4408fdb7 Downloading 21.31MB
+ f9dd052e142d Downloading 42.99MB
+ eb77aa907276 Downloading 42.99MB
+ e0d55fdb4d15 Downloading 38.8MB
+ 3fadc669ef11 Downloading 36.7MB
+ 16ef6b12768c Downloading 3.088MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 29.15MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ eb77aa907276 Downloading 68.16MB
+ f9dd052e142d Downloading 52.33MB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 29.15MB
+ e0d55fdb4d15 Downloading 53.48MB
+ 742179fec703 Downloading 15.36MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 29.15MB
+ e0d55fdb4d15 Downloading 72.35MB
+ eb77aa907276 Downloading 99.61MB
+ f9dd052e142d Downloading 52.33MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 742179fec703 Downloading 15.36MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 29.15MB
+ e0d55fdb4d15 Downloading 95.42MB
+ f9dd052e142d Downloading 52.33MB
+ eb77aa907276 Downloading 129MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 29.15MB
+ 5682dec5b749 Downloading 5.719MB
+ e0d55fdb4d15 Downloading 109MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ f9dd052e142d Downloading 52.33MB
+ eb77aa907276 Downloading 158.3MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ f9dd052e142d Downloading 52.33MB
+ eb77aa907276 Downloading 192.9MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 29.15MB
+ 5682dec5b749 Downloading 5.719MB
+ e0d55fdb4d15 Downloading 109MB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 29.15MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ 5682dec5b749 Downloading 5.719MB
+ 742179fec703 Downloading 15.36MB
+ e0d55fdb4d15 Downloading 109MB
+ f9dd052e142d Downloading 52.33MB
+ eb77aa907276 Downloading 227.5MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ 3c5439d0ae62 Downloading 28.25MB
+ f9dd052e142d Downloading 52.33MB
+ e0d55fdb4d15 Downloading 109MB
+ eb77aa907276 Downloading 264.2MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 29.15MB
+ 5682dec5b749 Downloading 5.719MB
+ e0d55fdb4d15 Downloading 109MB
+ 9739ced65621 Downloading 8.069MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ b0a0cf830b12 Downloading 29.15MB
+ 5682dec5b749 Downloading 5.719MB
+ 20043066d3d5 Downloading 29.72MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 7ec4c696b8bb Downloading 11.09kB
+ f9dd052e142d Downloading 52.33MB
+ eb77aa907276 Downloading 300.9MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ e0d55fdb4d15 Downloading 109MB
+ 742179fec703 Downloading 15.36MB
+ f9dd052e142d Downloading 52.33MB
+ eb77aa907276 Downloading 335.5MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 29.15MB
+ 5682dec5b749 Downloading 5.719MB
+ e0d55fdb4d15 Downloading 109MB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 29.15MB
+ 5682dec5b749 Downloading 5.719MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ f9dd052e142d Downloading 52.33MB
+ eb77aa907276 Downloading 371.2MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ b0a0cf830b12 Downloading 29.15MB
+ 5682dec5b749 Downloading 5.719MB
+ e0d55fdb4d15 Downloading 109MB
+ 9739ced65621 Downloading 8.069MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ f9dd052e142d Downloading 52.33MB
+ eb77aa907276 Downloading 405.8MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 29.15MB
+ 5682dec5b749 Downloading 5.719MB
+ e0d55fdb4d15 Downloading 109MB
+ f9dd052e142d Downloading 52.33MB
+ eb77aa907276 Downloading 441.5MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ b0a0cf830b12 Downloading 29.15MB
+ 5682dec5b749 Downloading 5.719MB
+ e0d55fdb4d15 Downloading 109MB
+ 56b5e4f0933d Downloading 55.24kB
+ 9739ced65621 Downloading 8.069MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ f9dd052e142d Downloading 52.33MB
+ eb77aa907276 Downloading 478.2MB
+ 5682dec5b749 Downloading 5.719MB
+ e0d55fdb4d15 Downloading 109MB
+ 56b5e4f0933d Downloading 55.24kB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 29.15MB
+ f9dd052e142d Downloading 52.33MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ eb77aa907276 Downloading 513.8MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 29.15MB
+ 5682dec5b749 Downloading 5.719MB
+ e0d55fdb4d15 Downloading 109MB
+ 56b5e4f0933d Downloading 55.24kB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ 20043066d3d5 Downloading 29.72MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 7ec4c696b8bb Downloading 11.09kB
+ f9dd052e142d Downloading 52.33MB
+ eb77aa907276 Downloading 549.5MB
+ 9739ced65621 Downloading 8.069MB
+ b0a0cf830b12 Downloading 29.15MB
+ 5682dec5b749 Downloading 5.719MB
+ e0d55fdb4d15 Downloading 109MB
+ 56b5e4f0933d Downloading 55.24kB
+ 3c5439d0ae62 Downloading 28.25MB
+ 6b39f47a897c Downloading 2.373MB
+ 742179fec703 Downloading 15.36MB
+ f9dd052e142d Downloading 52.33MB
+ eb77aa907276 Downloading 575.7MB
+ 7ec4c696b8bb Downloading 11.09kB
+ 20043066d3d5 Downloading 29.72MB
+ d63c4408fdb7 Downloading 21.31MB
+ 3fadc669ef11 Downloading 43.48MB
+ 16ef6b12768c Downloading 3.088MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 3fadc669ef11 Downloading 43.48MB
+ eb77aa907276 Downloading 596.6MB
+ f9dd052e142d Downloading 52.33MB
+ 6b39f47a897c Download complete 0B
+ 16ef6b12768c Download complete 0B
+ b0a0cf830b12 Downloading 29.15MB
+ 5682dec5b749 Downloading 5.719MB
+ e0d55fdb4d15 Downloading 109MB
+ 56b5e4f0933d Downloading 55.24kB
+ 742179fec703 Download complete 0B
+ 7ec4c696b8bb Download complete 0B
+ 20043066d3d5 Downloading 29.72MB
+ d63c4408fdb7 Downloading 21.31MB
+ e0d55fdb4d15 Download complete 0B
+ 3c5439d0ae62 Download complete 0B
+ 56b5e4f0933d Download complete 0B
+ 9739ced65621 Download complete 0B
+ b0a0cf830b12 Download complete 0B
+ eb77aa907276 Downloading 627MB
+ f9dd052e142d Download complete 0B
+ d63c4408fdb7 Download complete 0B
+ 3fadc669ef11 Download complete 0B
+ 20043066d3d5 Download complete 0B
+ 5682dec5b749 Download complete 0B
+ 3c5439d0ae62 Extracting 1B
+ f9dd052e142d Extracting 1B
+ 20043066d3d5 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ eb77aa907276 Downloading 648MB
+ f9dd052e142d Extracting 1B
+ 3c5439d0ae62 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ eb77aa907276 Downloading 665.8MB
+ f9dd052e142d Extracting 1B
+ 3c5439d0ae62 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ eb77aa907276 Downloading 685.8MB
+ f9dd052e142d Extracting 1B
+ 3c5439d0ae62 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ eb77aa907276 Downloading 703.6MB
+ 3c5439d0ae62 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ f9dd052e142d Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ eb77aa907276 Downloading 721.4MB
+ f9dd052e142d Extracting 1B
+ 3c5439d0ae62 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ eb77aa907276 Downloading 740.3MB
+ 3c5439d0ae62 Extracting 1B
+ f9dd052e142d Extracting 1B
+ 20043066d3d5 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ eb77aa907276 Downloading 760.2MB
+ f9dd052e142d Extracting 1B
+ 3c5439d0ae62 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ eb77aa907276 Downloading 780.1MB
+ f9dd052e142d Extracting 1B
+ 3c5439d0ae62 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ eb77aa907276 Downloading 801.1MB
+ f9dd052e142d Extracting 1B
+ 3c5439d0ae62 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ eb77aa907276 Downloading 817.9MB
+ f9dd052e142d Extracting 2B
+ 3c5439d0ae62 Extracting 2B
+ 20043066d3d5 Extracting 2B
+ b0a0cf830b12 Extracting 2B
+ eb77aa907276 Downloading 831.5MB
+ f9dd052e142d Extracting 2B
+ 3c5439d0ae62 Extracting 2B
+ 20043066d3d5 Extracting 2B
+ b0a0cf830b12 Extracting 2B
+ eb77aa907276 Downloading 849.3MB
+ 3c5439d0ae62 Extracting 2B
+ f9dd052e142d Extracting 2B
+ 20043066d3d5 Extracting 2B
+ b0a0cf830b12 Extracting 2B
+ eb77aa907276 Downloading 871.4MB
+ f9dd052e142d Extracting 2B
+ 3c5439d0ae62 Extracting 2B
+ 20043066d3d5 Extracting 2B
+ b0a0cf830b12 Extracting 2B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 2B
+ 3c5439d0ae62 Extracting 2B
+ 20043066d3d5 Extracting 2B
+ b0a0cf830b12 Extracting 2B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 2B
+ 3c5439d0ae62 Extracting 2B
+ 20043066d3d5 Extracting 2B
+ b0a0cf830b12 Extracting 2B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 2B
+ 3c5439d0ae62 Extracting 2B
+ 20043066d3d5 Extracting 2B
+ b0a0cf830b12 Extracting 2B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 2B
+ 3c5439d0ae62 Extracting 2B
+ 20043066d3d5 Extracting 2B
+ b0a0cf830b12 Extracting 2B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 2B
+ 3c5439d0ae62 Extracting 2B
+ 20043066d3d5 Extracting 2B
+ b0a0cf830b12 Extracting 2B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 2B
+ 3c5439d0ae62 Extracting 2B
+ b0a0cf830b12 Extracting 2B
+ 20043066d3d5 Extracting 2B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 2B
+ 3c5439d0ae62 Extracting 2B
+ 20043066d3d5 Extracting 2B
+ b0a0cf830b12 Extracting 2B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 3B
+ 3c5439d0ae62 Extracting 3B
+ 20043066d3d5 Extracting 3B
+ b0a0cf830b12 Extracting 3B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 3B
+ 3c5439d0ae62 Extracting 3B
+ 20043066d3d5 Pull complete 0B
+ b0a0cf830b12 Extracting 3B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 3B
+ 3c5439d0ae62 Extracting 3B
+ b0a0cf830b12 Extracting 3B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 3B
+ b0a0cf830b12 Extracting 3B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 3B
+ b0a0cf830b12 Extracting 3B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 3B
+ b0a0cf830b12 Extracting 3B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 3B
+ 3c5439d0ae62 Pull complete 0B
+ b0a0cf830b12 Extracting 3B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 3B
+ b0a0cf830b12 Extracting 3B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 3B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 3B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 4B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 4B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 4B
+ b0a0cf830b12 Pull complete 0B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 4B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 4B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 4B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 4B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 4B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 4B
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Extracting 4B
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ f9dd052e142d Pull complete 0B
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ 3fadc669ef11 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ 3fadc669ef11 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ 3fadc669ef11 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ 3fadc669ef11 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ 3fadc669ef11 Extracting 1B
+ 3fadc669ef11 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ 3fadc669ef11 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ 3fadc669ef11 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ 3fadc669ef11 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ 3fadc669ef11 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ 3fadc669ef11 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ 3fadc669ef11 Extracting 2B
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ 3fadc669ef11 Pull complete 0B
+ eb77aa907276 Downloading 907.7MB
+ a9bd82aed298 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ a9bd82aed298 Extracting 1B
+ a9bd82aed298 Pull complete 0B
+ e8c6d4883897 Extracting 1B
+ dda3d8fbd5ed Pull complete 0B
+ eb77aa907276 Download complete 0B
+ 142efe7e4cd9 Pull complete 0B
+ e8c6d4883897 Extracting 1B
+ 283a477db7bb Extracting 1B
+ 7084ac8f4ab6 Extracting 1B
+ 742179fec703 Extracting 1B
+ e8c6d4883897 Extracting 1B
+ 283a477db7bb Extracting 1B
+ 7084ac8f4ab6 Extracting 1B
+ 742179fec703 Extracting 1B
+ 7084ac8f4ab6 Extracting 1B
+ 283a477db7bb Pull complete 0B
+ 742179fec703 Pull complete 0B
+ 648eb81b3252 Extracting 1B
+ beb0d870d438 Extracting 1B
+ e8c6d4883897 Pull complete 0B
+ 91d2729fa4d5 Extracting 1B
+ 7084ac8f4ab6 Pull complete 0B
+ 648eb81b3252 Pull complete 0B
+ f4ff9d4e92de Pull complete 0B
+ beb0d870d438 Pull complete 0B
+ eb77aa907276 Extracting 1B
+ 91d2729fa4d5 Pull complete 0B
+ d63c4408fdb7 Extracting 1B
+ 9739ced65621 Extracting 1B
+ d6aecb83344b Pull complete 0B
+ 4f4fb700ef54 Pull complete 0B
+ eb77aa907276 Extracting 1B
+ d63c4408fdb7 Extracting 1B
+ 9739ced65621 Extracting 1B
+ eb77aa907276 Extracting 1B
+ d63c4408fdb7 Extracting 1B
+ 9739ced65621 Pull complete 0B
+ Image redis:7 Pulled 
+ eb77aa907276 Extracting 1B
+ d63c4408fdb7 Extracting 1B
+ ae3bb1b347a4 Extracting 1B
+ eb77aa907276 Extracting 1B
+ d63c4408fdb7 Extracting 1B
+ ae3bb1b347a4 Pull complete 0B
+ eb77aa907276 Extracting 1B
+ f8406d9c00ea Pull complete 0B
+ c199bff16b05 Pull complete 0B
+ d63c4408fdb7 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ efa05c660812 Pull complete 0B
+ 5e1c03b67a78 Extracting 1B
+ f4e7f62f4b80 Pull complete 0B
+ eb77aa907276 Extracting 1B
+ d63c4408fdb7 Pull complete 0B
+ e0d55fdb4d15 Extracting 1B
+ 5e1c03b67a78 Pull complete 0B
+ 14e6209d5fa8 Pull complete 0B
+ d686b50ce172 Extracting 1B
+ eb77aa907276 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ d686b50ce172 Extracting 1B
+ eb77aa907276 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ d686b50ce172 Extracting 1B
+ eb77aa907276 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ d686b50ce172 Extracting 1B
+ eb77aa907276 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ d686b50ce172 Pull complete 0B
+ Image rabbitmq:3-management Pulled 
+ eb77aa907276 Extracting 2B
+ e0d55fdb4d15 Extracting 1B
+ eb77aa907276 Extracting 2B
+ e0d55fdb4d15 Extracting 1B
+ eb77aa907276 Extracting 2B
+ e0d55fdb4d15 Extracting 1B
+ eb77aa907276 Extracting 2B
+ e0d55fdb4d15 Extracting 1B
+ eb77aa907276 Extracting 2B
+ e0d55fdb4d15 Extracting 1B
+ eb77aa907276 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ eb77aa907276 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ eb77aa907276 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ eb77aa907276 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ eb77aa907276 Extracting 2B
+ eb77aa907276 Extracting 3B
+ e0d55fdb4d15 Extracting 2B
+ eb77aa907276 Extracting 3B
+ e0d55fdb4d15 Extracting 2B
+ eb77aa907276 Extracting 3B
+ e0d55fdb4d15 Extracting 2B
+ eb77aa907276 Extracting 3B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Pull complete 0B
+ eb77aa907276 Extracting 3B
+ eb77aa907276 Extracting 3B
+ c1cb13b19080 Pull complete 0B
+ eb77aa907276 Extracting 3B
+ eb77aa907276 Extracting 3B
+ 873532e5f8c7 Pull complete 0B
+ eb77aa907276 Extracting 3B
+ cb628c265f09 Extracting 1B
+ 050d9f8c3b1c Pull complete 0B
+ eb77aa907276 Extracting 3B
+ 710e142705f8 Pull complete 0B
+ cb628c265f09 Pull complete 0B
+ Image postgres:16.2 Pulled 
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 5B
+ eb77aa907276 Extracting 5B
+ eb77aa907276 Extracting 5B
+ eb77aa907276 Extracting 5B
+ eb77aa907276 Extracting 5B
+ eb77aa907276 Extracting 5B
+ eb77aa907276 Extracting 5B
+ eb77aa907276 Pull complete 0B
+ 4f4fb700ef54 Pull complete 0B
+ 2e81b9cb93cd Extracting 1B
+ 0ffa8f8aba1e Pull complete 0B
+ 2e81b9cb93cd Pull complete 0B
+ Image opensearchproject/opensearch:2.16.0 Pulled 
+ Network docker_services_cli_default Creating 
+ Network docker_services_cli_default Created 
+ Container docker_services_cli-redis-1 Creating 
+ Container docker_services_cli-opensearch-1 Creating 
+ Container docker_services_cli-rabbitmq-1 Creating 
+ Container docker_services_cli-postgresql-1 Creating 
+ Container docker_services_cli-opensearch-1 Created 
+ Container docker_services_cli-postgresql-1 Created 
+ Container docker_services_cli-redis-1 Created 
+ Container docker_services_cli-rabbitmq-1 Created 
+ Container docker_services_cli-redis-1 Starting 
+ Container docker_services_cli-rabbitmq-1 Starting 
+ Container docker_services_cli-postgresql-1 Starting 
+ Container docker_services_cli-opensearch-1 Starting 
+ Container docker_services_cli-postgresql-1 Started 
+ Container docker_services_cli-opensearch-1 Started 
+ Container docker_services_cli-rabbitmq-1 Started 
+ Container docker_services_cli-redis-1 Started 
+============================= test session starts ==============================
+platform linux -- Python 3.14.10, pytest-8.4.2, pluggy-1.7.0
+rootdir: /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-app-rdm/patched
+configfile: pyproject.toml
+testpaths: tests, invenio_app_rdm
+plugins: github-actions-annotate-failures-0.4.2, time-machine-2.19.0, black-0.6.0, isort-4.0.0, Faker-40.44.0, flask-1.3.0, pydocstyle-2.4.0, invenio-4.0.3, cov-7.1.0, pycodestyle-2.5.0, platformdirs-4.14.3
+collected 367 items
+
+tests/__init__.py ...                                                    [  0%]
+tests/api/__init__.py ...                                                [  1%]
+tests/api/conftest.py ...                                                [  2%]
+tests/api/test_admin_moderation_requests_api.py ...                      [  3%]
+tests/api/test_protect_files_rest.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                 [  4%]
+tests/api/test_record_api.py ....::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+s.                                    [  6%]
+tests/api/test_stats_api.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                          [  7%]
+tests/conftest.py ...                                                    [  7%]
+tests/fixtures/__init__.py ...                                           [  8%]
+tests/fixtures/conftest.py ...                                           [  9%]
+tests/fixtures/test_cli.py ...                                           [ 10%]
+tests/fixtures/test_fixtures.py ....                                     [ 11%]
+tests/mock_module/__init__.py ...                                        [ 12%]
+tests/mock_module/views.py ...                                           [ 13%]
+tests/redirector/__init__.py ...                                         [ 13%]
+tests/redirector/conftest.py ...                                         [ 14%]
+tests/redirector/test_redirector.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                  [ 15%]
+tests/test_tasks.py ......                                               [ 17%]
+tests/test_utils.py ......                                               [ 18%]
+tests/test_version.py ...                                                [ 19%]
+tests/test_views.py ...                                                  [ 20%]
+tests/ui/__init__.py ...                                                 [ 21%]
+tests/ui/conftest.py ...                                                 [ 22%]
+tests/ui/test_deposits.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.                                           [ 23%]
+tests/ui/test_export_formats.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                      [ 23%]
+tests/ui/test_file_download.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                     [ 25%]
+tests/ui/test_filters.py ....                                            [ 26%]
+tests/ui/test_robotstxt.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                           [ 27%]
+tests/ui/test_signposting_ui.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                               [ 29%]
+tests/ui/test_sitemaps.py ....                                           [ 31%]
+tests/ui/test_stats_ui.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                           [ 32%]
+tests/ui/test_zip_preview.py ......::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                   [ 34%]
+invenio_app_rdm/__init__.py ...                                          [ 35%]
+invenio_app_rdm/administration/__init__.py ...                           [ 36%]
+invenio_app_rdm/administration/audit_logs/__init__.py ...                [ 37%]
+invenio_app_rdm/administration/audit_logs/audit_logs.py ...              [ 37%]
+invenio_app_rdm/administration/domains/__init__.py ...                   [ 38%]
+invenio_app_rdm/administration/domains/domains.py ...                    [ 39%]
+invenio_app_rdm/administration/moderation/__init__.py ...                [ 40%]
+invenio_app_rdm/administration/moderation/requests.py ...                [ 41%]
+invenio_app_rdm/administration/moderation/resources.py ...               [ 41%]
+invenio_app_rdm/administration/records/__init__.py ...                   [ 42%]
+invenio_app_rdm/administration/records/records.py ...                    [ 43%]
+invenio_app_rdm/administration/roles/__init__.py ...                     [ 44%]
+invenio_app_rdm/administration/roles/roles.py ...                        [ 45%]
+invenio_app_rdm/administration/user_moderation/__init__.py ...           [ 46%]
+invenio_app_rdm/administration/user_moderation/user_moderation.py ...    [ 46%]
+invenio_app_rdm/administration/users/__init__.py ...                     [ 47%]
+invenio_app_rdm/administration/users/permissions.py ...                  [ 48%]
+invenio_app_rdm/administration/users/users.py ...                        [ 49%]
+invenio_app_rdm/administration/views/__init__.py ...                     [ 50%]
+invenio_app_rdm/administration/views/ui.py ...                           [ 50%]
+invenio_app_rdm/cli.py ...                                               [ 51%]
+invenio_app_rdm/communities_ui/__init__.py ...                           [ 52%]
+invenio_app_rdm/communities_ui/searchapp.py ...                          [ 53%]
+invenio_app_rdm/communities_ui/sitemap.py ...                            [ 54%]
+invenio_app_rdm/communities_ui/views/__init__.py ...                     [ 55%]
+invenio_app_rdm/communities_ui/views/communities.py ...                  [ 55%]
+invenio_app_rdm/communities_ui/views/ui.py ...                           [ 56%]
+invenio_app_rdm/config.py ...                                            [ 57%]
+invenio_app_rdm/ext.py ...                                               [ 58%]
+invenio_app_rdm/fixtures/__init__.py ...                                 [ 59%]
+invenio_app_rdm/fixtures/oai_sets.py ...                                 [ 59%]
+invenio_app_rdm/fixtures/pages.py ...                                    [ 60%]
+invenio_app_rdm/records_ui/__init__.py ...                               [ 61%]
+invenio_app_rdm/records_ui/previewer/__init__.py ...                     [ 62%]
+invenio_app_rdm/records_ui/previewer/iiif_simple.py ...                  [ 63%]
+invenio_app_rdm/records_ui/previewer/previewable_zip.py ...              [ 64%]
+invenio_app_rdm/records_ui/searchapp.py ...                              [ 64%]
+invenio_app_rdm/records_ui/sitemap.py ...                                [ 65%]
+invenio_app_rdm/records_ui/utils.py ...                                  [ 66%]
+invenio_app_rdm/records_ui/views/__init__.py ...                         [ 67%]
+invenio_app_rdm/records_ui/views/decorators.py ...                       [ 68%]
+invenio_app_rdm/records_ui/views/deposits.py ...                         [ 68%]
+invenio_app_rdm/records_ui/views/filters.py ...                          [ 69%]
+invenio_app_rdm/records_ui/views/records.py ...                          [ 70%]
+invenio_app_rdm/redirector/__init__.py ...                               [ 71%]
+invenio_app_rdm/redirector/resource.py ...                               [ 72%]
+invenio_app_rdm/redirector/views.py ...                                  [ 73%]
+invenio_app_rdm/requests_ui/__init__.py ...                              [ 73%]
+invenio_app_rdm/requests_ui/views/__init__.py ...                        [ 74%]
+invenio_app_rdm/requests_ui/views/requests.py ...                        [ 75%]
+invenio_app_rdm/requests_ui/views/ui.py ...                              [ 76%]
+invenio_app_rdm/tasks.py ...                                             [ 77%]
+invenio_app_rdm/theme/__init__.py ...                                    [ 77%]
+invenio_app_rdm/theme/views.py ...                                       [ 78%]
+invenio_app_rdm/theme/webpack.py ...                                     [ 79%]
+invenio_app_rdm/upgrade_scripts/__init__.py ...                          [ 80%]
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_1_0_to_2_0.py . [ 80%]
+..                                                                       [ 81%]
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_8_0_to_9_0.py . [ 81%]
+..                                                                       [ 82%]
+invenio_app_rdm/upgrade_scripts/migrate_10_0_to_11_0.py ...              [ 82%]
+invenio_app_rdm/upgrade_scripts/migrate_11_0_to_12_0.py ...              [ 83%]
+invenio_app_rdm/upgrade_scripts/migrate_12_0_to_13_0.py ...              [ 84%]
+invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py ...              [ 85%]
+invenio_app_rdm/upgrade_scripts/migrate_1_0_records_to_2_0.py ...        [ 86%]
+invenio_app_rdm/upgrade_scripts/migrate_2_0_to_3_0.py ...                [ 86%]
+invenio_app_rdm/upgrade_scripts/migrate_3_0_to_4_0.py ...                [ 87%]
+invenio_app_rdm/upgrade_scripts/migrate_4_0_to_6_0.py ...                [ 88%]
+invenio_app_rdm/upgrade_scripts/migrate_6_0_to_7_0.py ...                [ 89%]
+invenio_app_rdm/upgrade_scripts/migrate_7_0_to_8_0.py ...                [ 90%]
+invenio_app_rdm/upgrade_scripts/migrate_8_0_to_9_0.py ...                [ 91%]
+invenio_app_rdm/upgrade_scripts/migrate_9_0_to_10_0.py ...               [ 91%]
+invenio_app_rdm/upgrade_scripts/migrate_role_ids_to_names.py ...         [ 92%]
+invenio_app_rdm/upgrade_scripts/prepare_migration_13_0_to_14_0.py ...    [ 93%]
+invenio_app_rdm/users/schemas.py ...                                     [ 94%]
+invenio_app_rdm/users_ui/__init__.py ...                                 [ 95%]
+invenio_app_rdm/users_ui/searchapp.py ...                                [ 95%]
+invenio_app_rdm/users_ui/views/__init__.py ...                           [ 96%]
+invenio_app_rdm/users_ui/views/dashboard.py ...                          [ 97%]
+invenio_app_rdm/users_ui/views/ui.py ...                                 [ 98%]
+invenio_app_rdm/utils/files.py ...                                       [ 99%]
+invenio_app_rdm/views.py ...                                             [100%]
+
+=============================== warnings summary ===============================
+tests/api/test_protect_files_rest.py: 1 warning
+tests/api/test_record_api.py: 6 warnings
+tests/api/test_stats_api.py: 1 warning
+tests/redirector/test_redirector.py: 1 warning
+tests/ui/test_deposits.py: 1 warning
+tests/ui/test_export_formats.py: 1 warning
+tests/ui/test_file_download.py: 5 warnings
+tests/ui/test_robotstxt.py: 1 warning
+tests/ui/test_signposting_ui.py: 8 warnings
+tests/ui/test_stats_ui.py: 2 warnings
+tests/ui/test_zip_preview.py: 8 warnings
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py:59: DeprecationWarning: Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+    self.redis.setex(key, ittl, value)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.10-final-0 _______________
+
+Name                                                                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------------------------------------------------------
+invenio_app_rdm/__init__.py                                                   2      0   100%
+invenio_app_rdm/administration/__init__.py                                    0      0   100%
+invenio_app_rdm/administration/audit_logs/__init__.py                         2      0   100%
+invenio_app_rdm/administration/audit_logs/audit_logs.py                      28      0   100%
+invenio_app_rdm/administration/domains/__init__.py                            2      0   100%
+invenio_app_rdm/administration/domains/domains.py                            40      0   100%
+invenio_app_rdm/administration/moderation/__init__.py                         2      0   100%
+invenio_app_rdm/administration/moderation/requests.py                        77     22    71%   57-60, 65-71, 80, 114-120, 124-147
+invenio_app_rdm/administration/moderation/resources.py                       31      0   100%
+invenio_app_rdm/administration/records/__init__.py                            2      0   100%
+invenio_app_rdm/administration/records/records.py                            61      8    87%   67, 72-74, 78-80, 84, 143
+invenio_app_rdm/administration/roles/__init__.py                              2      0   100%
+invenio_app_rdm/administration/roles/roles.py                                49      3    94%   48-50
+invenio_app_rdm/administration/user_moderation/__init__.py                    2      0   100%
+invenio_app_rdm/administration/user_moderation/user_moderation.py            63     11    83%   90-93, 98-104, 113, 151-157
+invenio_app_rdm/administration/users/__init__.py                              2      0   100%
+invenio_app_rdm/administration/users/permissions.py                           9      6    33%   14-20
+invenio_app_rdm/administration/users/users.py                                60      4    93%   66-68, 125
+invenio_app_rdm/administration/views/__init__.py                              2      0   100%
+invenio_app_rdm/administration/views/ui.py                                    4      0   100%
+invenio_app_rdm/cli.py                                                       45     22    51%   37-41, 60-91
+invenio_app_rdm/communities_ui/__init__.py                                    0      0   100%
+invenio_app_rdm/communities_ui/searchapp.py                                   5      0   100%
+invenio_app_rdm/communities_ui/sitemap.py                                    13      0   100%
+invenio_app_rdm/communities_ui/views/__init__.py                              2      0   100%
+invenio_app_rdm/communities_ui/views/communities.py                          63     43    32%   34-37, 53-108, 123-130, 145-160, 175-192
+invenio_app_rdm/communities_ui/views/ui.py                                   45     17    62%   39-61
+invenio_app_rdm/config.py                                                   334      2    99%   306-308
+invenio_app_rdm/ext.py                                                       65     17    74%   36, 67-70, 80-85, 98, 106, 155-160, 204-205
+invenio_app_rdm/fixtures/__init__.py                                         21      6    71%   19-24
+invenio_app_rdm/fixtures/oai_sets.py                                          6      0   100%
+invenio_app_rdm/fixtures/pages.py                                            35      1    97%   45
+invenio_app_rdm/records_ui/__init__.py                                        0      0   100%
+invenio_app_rdm/records_ui/previewer/__init__.py                              0      0   100%
+invenio_app_rdm/records_ui/previewer/iiif_simple.py                          14      5    64%   36-41
+invenio_app_rdm/records_ui/previewer/previewable_zip.py                      69     16    77%   29-34, 46-58, 77, 88-95, 102-105
+invenio_app_rdm/records_ui/searchapp.py                                       6      0   100%
+invenio_app_rdm/records_ui/sitemap.py                                        10      0   100%
+invenio_app_rdm/records_ui/utils.py                                          83     43    48%   36-47, 76-81, 89, 103-115, 128, 161-180, 185-218
+invenio_app_rdm/records_ui/views/__init__.py                                 59      0   100%
+invenio_app_rdm/records_ui/views/decorators.py                              282     71    75%   51, 59-62, 73-89, 145, 157-167, 198-199, 238, 267-287, 314-315, 336-339, 345-349, 367-370, 376-380, 392-402, 416-424, 542-546, 563-569
+invenio_app_rdm/records_ui/views/deposits.py                                251    159    37%   60-136, 141-142, 213-219, 230-233, 251-254, 258-261, 265-268, 272-275, 279-282, 286, 290, 294, 301, 309, 313, 319-324, 329-341, 353-372, 388-406, 436-442, 448, 453-477, 488-506, 543-639, 666-667
+invenio_app_rdm/records_ui/views/filters.py                                 125     56    55%   28-31, 42-43, 49, 63-64, 69-82, 95-96, 104-112, 131, 148, 158, 181-211, 225-230
+invenio_app_rdm/records_ui/views/records.py                                 253    100    60%   86-101, 144, 161-171, 183-184, 188-194, 224, 229, 249, 258-293, 375, 418-420, 427, 439-459, 464-468, 487, 499-504, 511-531, 541-549, 555, 561, 574, 591, 597-603, 620-638
+invenio_app_rdm/redirector/__init__.py                                        0      0   100%
+invenio_app_rdm/redirector/resource.py                                       29      1    97%   90
+invenio_app_rdm/redirector/views.py                                           6      0   100%
+invenio_app_rdm/requests_ui/__init__.py                                       0      0   100%
+invenio_app_rdm/requests_ui/views/__init__.py                                 2      0   100%
+invenio_app_rdm/requests_ui/views/requests.py                               205    154    25%   56-134, 138, 148-165, 175-192, 199-285, 303-402, 423-438, 457-478, 493-503, 508
+invenio_app_rdm/requests_ui/views/ui.py                                      25      0   100%
+invenio_app_rdm/tasks.py                                                     18      7    61%   22-28
+invenio_app_rdm/theme/__init__.py                                             0      0   100%
+invenio_app_rdm/theme/views.py                                               49     19    61%   59, 76-77, 88-89, 100-101, 111-126, 134-136
+invenio_app_rdm/theme/webpack.py                                              2      0   100%
+invenio_app_rdm/upgrade_scripts/__init__.py                                   0      0   100%
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_1_0_to_2_0.py      28     24    14%   12-42, 46
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_8_0_to_9_0.py      48     43    10%   16-82, 86
+invenio_app_rdm/upgrade_scripts/migrate_1_0_records_to_2_0.py                46     41    11%   24-95, 99
+invenio_app_rdm/upgrade_scripts/migrate_2_0_to_3_0.py                        34     29    15%   28-84, 88
+invenio_app_rdm/upgrade_scripts/migrate_3_0_to_4_0.py                        64     60     6%   23-132, 136
+invenio_app_rdm/upgrade_scripts/migrate_4_0_to_6_0.py                       244    231     5%   24-60, 66-144, 154-195, 205-365, 369-391
+invenio_app_rdm/upgrade_scripts/migrate_6_0_to_7_0.py                        72     65    10%   26-153, 157
+invenio_app_rdm/upgrade_scripts/migrate_7_0_to_8_0.py                        68     59    13%   32-144, 149
+invenio_app_rdm/upgrade_scripts/migrate_8_0_to_9_0.py                        51     46    10%   24-89, 94
+invenio_app_rdm/upgrade_scripts/migrate_9_0_to_10_0.py                       13      8    38%   23-31, 39
+invenio_app_rdm/upgrade_scripts/migrate_10_0_to_11_0.py                      18     13    28%   23-38, 43
+invenio_app_rdm/upgrade_scripts/migrate_11_0_to_12_0.py                      82     70    15%   58-197, 202
+invenio_app_rdm/upgrade_scripts/migrate_12_0_to_13_0.py                     126    107    15%   37-95, 103-118, 123-150, 155-182, 187-204, 221-226, 231
+invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py                       5      2    60%   22, 27
+invenio_app_rdm/upgrade_scripts/migrate_role_ids_to_names.py                 34     25    26%   24-97, 105
+invenio_app_rdm/upgrade_scripts/prepare_migration_13_0_to_14_0.py            95     72    24%   26-30, 35-49, 56, 61-63, 71-85, 99-106, 111, 116-120, 129-135, 145-152, 164, 183-201, 217-222, 232, 236-237, 241-259
+invenio_app_rdm/users/schemas.py                                              6      0   100%
+invenio_app_rdm/users_ui/__init__.py                                          0      0   100%
+invenio_app_rdm/users_ui/searchapp.py                                         5      0   100%
+invenio_app_rdm/users_ui/views/__init__.py                                    2      0   100%
+invenio_app_rdm/users_ui/views/dashboard.py                                  18      7    61%   18-21, 31-34, 44-50
+invenio_app_rdm/users_ui/views/ui.py                                         18      4    78%   19, 24-27
+invenio_app_rdm/utils/files.py                                               66      5    92%   20-28
+invenio_app_rdm/views.py                                                      8      2    75%   14-16
+-------------------------------------------------------------------------------------------------------
+TOTAL                                                                      3713   1706    54%
+=========== 366 passed, 1 skipped, 35 warnings in 152.27s (0:02:32) ============
+ Container docker_services_cli-redis-1 Stopping 
+ Container docker_services_cli-postgresql-1 Stopping 
+ Container docker_services_cli-opensearch-1 Stopping 
+ Container docker_services_cli-rabbitmq-1 Stopping 
+ Container docker_services_cli-redis-1 Stopped 
+ Container docker_services_cli-redis-1 Removing 
+ Container docker_services_cli-redis-1 Removed 
+ Container docker_services_cli-postgresql-1 Stopped 
+ Container docker_services_cli-postgresql-1 Removing 
+ Container docker_services_cli-opensearch-1 Stopped 
+ Container docker_services_cli-opensearch-1 Removing 
+ Container docker_services_cli-opensearch-1 Removed 
+ Container docker_services_cli-postgresql-1 Removed 
+ Container docker_services_cli-rabbitmq-1 Stopped 
+ Container docker_services_cli-rabbitmq-1 Removing 
+ Container docker_services_cli-rabbitmq-1 Removed 
+ Network docker_services_cli_default Removing 
+ Network docker_services_cli_default Removed 

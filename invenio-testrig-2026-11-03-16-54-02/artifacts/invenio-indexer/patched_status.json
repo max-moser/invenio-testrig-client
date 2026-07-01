@@ -1,0 +1,168 @@
+{
+  "dependencies": [
+    {
+      "github_entry": {
+        "_extra": {},
+        "default_branch": null,
+        "exclude": [
+          "invenio-xrootd",
+          "invenio-swh"
+        ],
+        "extras": [
+          "tests",
+          "opensearch2",
+          "s3",
+          "devs",
+          "s3fs",
+          "oaipmh",
+          "rdf",
+          "sparql",
+          "postgresql",
+          "admin"
+        ],
+        "freeze": [
+          "setuptools<82.0.0"
+        ],
+        "include": [
+          "invenio-.*",
+          "pytest-invenio",
+          "citeproc-py-styles"
+        ],
+        "install": [],
+        "org": "inveniosoftware",
+        "package_map": {},
+        "slow_packages": {
+          "invenio-rdm-records": [
+            "tests/resources/test_iiif_image_api.py",
+            "tests/resources/test_resources_review.py",
+            "tests/services/test_rdm_service.py"
+          ]
+        },
+        "test": [
+          "./run-tests.sh"
+        ]
+      },
+      "patched_reference": {
+        "actual_version": "4.0.3",
+        "base": null,
+        "branch": null,
+        "commit": "7f526113d1238c4a27289fccb85d99e2b3a24551",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "invenio-pidstore",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-pidstore"
+      },
+      "patches": [
+        {
+          "actual_version": "4.0.3",
+          "base": null,
+          "branch": "mm.importlib-metadata",
+          "commit": "e03cfe71e1f1e03c8a55fcfafbd33b65fb29f4ec",
+          "commits_from_version": null,
+          "org": "max-moser",
+          "package": "invenio-pidstore",
+          "pr": null,
+          "pr_info": null,
+          "repo": "invenio-pidstore",
+          "versions": []
+        }
+      ],
+      "reference": {
+        "actual_version": "4.0.3",
+        "base": null,
+        "branch": "v4.0.3",
+        "commit": "7f526113d1238c4a27289fccb85d99e2b3a24551",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "invenio-pidstore",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-pidstore"
+      },
+      "unpatched_reference": {
+        "actual_version": "4.0.3",
+        "base": null,
+        "branch": null,
+        "commit": "7f526113d1238c4a27289fccb85d99e2b3a24551",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "invenio-pidstore",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-pidstore"
+      }
+    }
+  ],
+  "package": {
+    "github_entry": {
+      "_extra": {},
+      "default_branch": null,
+      "exclude": [
+        "invenio-xrootd",
+        "invenio-swh"
+      ],
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "include": [
+        "invenio-.*",
+        "pytest-invenio",
+        "citeproc-py-styles"
+      ],
+      "install": [],
+      "org": "inveniosoftware",
+      "package_map": {},
+      "slow_packages": {
+        "invenio-rdm-records": [
+          "tests/resources/test_iiif_image_api.py",
+          "tests/resources/test_resources_review.py",
+          "tests/services/test_rdm_service.py"
+        ]
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    "patched_reference": null,
+    "patches": [],
+    "reference": {
+      "actual_version": "6.0.1",
+      "base": null,
+      "branch": "v6.0.1",
+      "commit": "d535d6737eff6a3912cd63ad084cfd6795c1c4f4",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-indexer",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-indexer"
+    },
+    "unpatched_reference": {
+      "actual_version": "6.0.1",
+      "base": null,
+      "branch": null,
+      "commit": "d535d6737eff6a3912cd63ad084cfd6795c1c4f4",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-indexer",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-indexer"
+    }
+  },
+  "status": "success"
+}

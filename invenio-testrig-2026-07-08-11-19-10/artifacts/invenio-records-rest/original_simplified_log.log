@@ -1,0 +1,299 @@
+ opensearch Pulling 
+ postgresql Pulling 
+ rabbitmq Pulling 
+ redis Pulling 
+ redis Pulled 
+ rabbitmq Pulled 
+ postgresql Pulled 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-rabbitmq-1  Started
+ Container docker_services_cli-opensearch-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-rest/original
+configfile: pyproject.toml
+testpaths: tests, invenio_records_rest
+plugins: flask-1.3.0, black-0.6.0, github-actions-annotate-failures-0.4.2, invenio-4.0.2, pycodestyle-2.5.0, cov-7.1.0, pydocstyle-2.4.0, isort-4.0.0
+collected 316 items
+tests/conftest.py ...                                                    [  0%]
+tests/helpers.py ...                                                     [  1%]
+tests/mock_module/__init__.py ...                                        [  2%]
+tests/mock_module/mappings/__init__.py ...                               [  3%]
+tests/mock_module/mappings/os-v1/__init__.py ...                         [  4%]
+tests/mock_module/mappings/os-v2/__init__.py ...                         [  5%]
+tests/mock_module/mappings/v7/__init__.py ...                            [  6%]
+tests/test_custom_endpoints.py 
+                                      [  7%]
+tests/test_custom_fields.py 
+                                         [  9%]
+tests/test_error_handlers.py 
+                                         [ 10%]
+tests/test_ext.py ....                                                   [ 11%]
+tests/test_facets.py 
+                                       [ 15%]
+tests/test_index_prefixing.py 
+                                       [ 16%]
+tests/test_links.py 
+                                                 [ 18%]
+tests/test_marshmallow_contrib.py .....                                  [ 19%]
+tests/test_marshmallow_loader.py 
+                                [ 22%]
+tests/test_permissions.py 
+                                            [ 23%]
+tests/test_pid_resolver.py 
+                                           [ 24%]
+tests/test_serializer_base.py 
+                                       [ 25%]
+tests/test_serializer_citeproc.py ..::error file=workdir/tests/invenio-records-rest/original/tests/test_serializer_citeproc.py,line=57::test_serialize%0A%0Aciteproc_styles.errors.StyleNotFoundError: The style harvard1 was not found
+F::error file=workdir/tests/invenio-records-rest/original/tests/test_serializer_citeproc.py,line=73::test_serializer_args%0A%0AAssertionError: assert 'Citeproc test' in '1. J. Doe, J. Smith, Citeproc Test (2016).'
+F.::error file=workdir/tests/invenio-records-rest/original/tests/test_serializer_citeproc.py,line=97::test_serializer_in_request%0A%0AAssertionError: assert 'Citeproc test' in '1. J. Doe, J. Smith, Citeproc Test (2016).'
+F
+                                 [ 27%]
+tests/test_serializer_csv.py .....                                       [ 28%]
+tests/test_serializer_datacite.py ......                                 [ 30%]
+tests/test_serializer_dc.py ....                                         [ 31%]
+tests/test_serializer_json.py 
+                                      [ 33%]
+tests/test_serializer_jsonld.py ....                                     [ 34%]
+tests/test_serializer_marshmallow.py .....                               [ 36%]
+tests/test_serializer_response.py 
+                                   [ 37%]
+tests/test_sorter.py 
+                                           [ 40%]
+tests/test_utils.py 
+                                             [ 43%]
+tests/test_views_item_delete.py 
+                                   [ 44%]
+tests/test_views_item_get.py 
+                                      [ 46%]
+tests/test_views_item_patch.py 
+                                [ 50%]
+tests/test_views_item_put.py 
+                                [ 53%]
+tests/test_views_list_post.py 
+                                 [ 56%]
+tests/test_views_options.py 
+                                         [ 58%]
+tests/test_views_search.py 
+                        [ 65%]
+tests/test_views_serializers.py 
+                                     [ 66%]
+tests/test_views_suggesters.py 
+                                       [ 67%]
+invenio_records_rest/__init__.py 
+                                    [ 68%]
+invenio_records_rest/_compat.py ...                                      [ 69%]
+invenio_records_rest/config.py ...                                       [ 70%]
+invenio_records_rest/errors.py ...                                       [ 71%]
+invenio_records_rest/ext.py ...                                          [ 72%]
+invenio_records_rest/facets.py ...                                       [ 73%]
+invenio_records_rest/links.py ...                                        [ 74%]
+invenio_records_rest/loaders/__init__.py ...                             [ 75%]
+invenio_records_rest/loaders/marshmallow.py ...                          [ 76%]
+invenio_records_rest/proxies.py ...                                      [ 77%]
+invenio_records_rest/query.py ...                                        [ 78%]
+invenio_records_rest/schemas/__init__.py ...                             [ 79%]
+invenio_records_rest/schemas/fields/__init__.py ...                      [ 80%]
+invenio_records_rest/schemas/fields/datetime.py ...                      [ 81%]
+invenio_records_rest/schemas/fields/generated.py ...                     [ 81%]
+invenio_records_rest/schemas/fields/marshmallow_contrib.py ...           [ 82%]
+invenio_records_rest/schemas/fields/persistentidentifier.py ...          [ 83%]
+invenio_records_rest/schemas/fields/sanitizedhtml.py ...                 [ 84%]
+invenio_records_rest/schemas/fields/sanitizedunicode.py ...              [ 85%]
+invenio_records_rest/schemas/fields/trimmedstring.py ...                 [ 86%]
+invenio_records_rest/schemas/json.py ...                                 [ 87%]
+invenio_records_rest/serializers/__init__.py ...                         [ 88%]
+invenio_records_rest/serializers/base.py ...                             [ 89%]
+invenio_records_rest/serializers/citeproc.py ...                         [ 90%]
+invenio_records_rest/serializers/csv.py ...                              [ 91%]
+invenio_records_rest/serializers/datacite.py ...                         [ 92%]
+invenio_records_rest/serializers/dc.py ...                               [ 93%]
+invenio_records_rest/serializers/json.py ...                             [ 94%]
+invenio_records_rest/serializers/jsonld.py ...                           [ 95%]
+invenio_records_rest/serializers/marshmallow.py ...                      [ 96%]
+invenio_records_rest/serializers/response.py ...                         [ 97%]
+invenio_records_rest/sorter.py ...                                       [ 98%]
+invenio_records_rest/utils.py ...                                        [ 99%]
+invenio_records_rest/views.py ...                                        [100%]
+=================================== FAILURES ===================================
+________________________________ test_serialize ________________________________
+    def test_serialize():
+        """Test Citeproc serialization."""
+        pid, record = get_test_data()
+        serializer = CiteprocSerializer(TestSerializer())
+>       data = serializer.serialize(pid, record)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_serializer_citeproc.py:57: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+invenio_records_rest/serializers/citeproc.py:129: in serialize
+    style = CitationStylesStyle(validate=False, **self._get_args(**kwargs))
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_records_rest/serializers/citeproc.py:99: in _get_args
+    csl_args["style"] = get_style_filepath(csl_args["style"].lower())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+style = 'harvard1', resolve_dependencies = True
+    def get_style_filepath(style, resolve_dependencies=True):
+        """Get the full path of a style file
+        :param style: The name of the style (eg. 'apa')
+        :param resolve_dependencies: If True, for dependent styles the independent
+                                     style is parsed and it's path is returned
+        :returns: Filepath of a .csl style file
+        """
+        independent_style = os.path.join(independent_dir, '{0}.csl'.format(style))
+        if _resource_exists(independent_style):
+            return _resource_filename(independent_style)
+        dependent_style = os.path.join(dependent_dir, '{0}.csl'.format(style))
+        if _resource_exists(dependent_style):
+            style_path = _resource_filename(dependent_style)
+            if resolve_dependencies:
+                inner_style = _resolve_dependent_style(style_path)
+                inner_style = os.path.join(independent_dir,
+                                           '{0}.csl'.format(inner_style))
+                if _resource_exists(inner_style):
+                    return _resource_filename(inner_style)
+                else:
+                    raise StyleNotFoundError(
+                        'The independent style {0} was not found.'
+                        .format(inner_style)
+                    )
+            return style_path
+>       raise StyleNotFoundError('The style {0} was not found.'.format(style))
+E       citeproc_styles.errors.StyleNotFoundError: The style harvard1 was not found
+venv/lib/python3.14/site-packages/citeproc_styles/__init__.py:110: StyleNotFoundError
+_____________________________ test_serializer_args _____________________________
+    def test_serializer_args():
+        """Test Citeproc serialization arguments."""
+        pid, record = get_test_data()
+        serializer = CiteprocSerializer(TestSerializer())
+        data = serializer.serialize(pid, record, style="science")
+        assert "1." in data
+        assert "J. Doe," in data
+        assert "J. Smith," in data
+>       assert "Citeproc test" in data
+E       AssertionError: assert 'Citeproc test' in '1. J. Doe, J. Smith, Citeproc Test (2016).'
+tests/test_serializer_citeproc.py:73: AssertionError
+__________________________ test_serializer_in_request __________________________
+app = <Flask 'testapp'>
+    def test_serializer_in_request(app):
+        """Test Citeproc serialization while in a request context."""
+        pid, record = get_test_data()
+        serializer = CiteprocSerializer(TestSerializer())
+        with app.test_request_context(query_string={"style": "science"}):
+            data = serializer.serialize(pid, record)
+            assert "1." in data
+            assert "J. Doe," in data
+            assert "J. Smith," in data
+>           assert "Citeproc test" in data
+E           AssertionError: assert 'Citeproc test' in '1. J. Doe, J. Smith, Citeproc Test (2016).'
+tests/test_serializer_citeproc.py:97: AssertionError
+=============================== warnings summary ===============================
+venv/lib/python3.14/site-packages/pyld/jsonld.py:4413
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-rest/original/.venv/lib/python3.14/site-packages/pyld/jsonld.py:4413: SyntaxWarning: "\?" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\?"? A raw string is also an option
+    and re.match('.*[:/\?#\[\]@]$', id_)
+venv/lib/python3.14/site-packages/pyld/jsonld.py:577
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-rest/original/.venv/lib/python3.14/site-packages/pyld/jsonld.py:577: SyntaxWarning: "is" with 'int' literal. Did you mean "=="?
+    if len(output) is 1 and output[0] == '':
+    self.init_app(app)
+    warnings.warn(
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-rest/original/.venv/lib/python3.14/site-packages/invenio_records/api.py:330: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-rest/original/tests/helpers.py:25: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+tests/test_custom_fields.py::test_custom_generated_fields
+tests/test_custom_fields.py::test_custom_generated_fields
+tests/test_marshmallow_loader.py::test_marshmallow_errors
+    clear_context = _init_context(kwargs)
+tests/test_custom_fields.py::test_custom_generated_fields
+tests/test_custom_fields.py::test_custom_generated_fields
+    clear_context = _init_context(kwargs)
+tests/test_index_prefixing.py::test_api_views
+tests/test_views_item_delete.py::test_valid_delete
+tests/test_views_item_delete.py::test_delete_deleted
+tests/test_views_item_delete.py::test_delete_with_sqldatabase_error
+tests/test_views_item_patch.py::test_patch_deleted[application/json-patch+json]
+tests/test_views_item_patch.py::test_patch_deleted[application/json-patch+json;charset=utf-8]
+tests/test_views_item_put.py::test_put_on_deleted[application/json]
+tests/test_views_item_put.py::test_put_on_deleted[application/json;charset=utf-8]
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-rest/original/.venv/lib/python3.14/site-packages/invenio_records/api.py:491: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-rest/original/.venv/lib/python3.14/site-packages/invenio_records/api.py:438: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+    warnings.warn(
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+Name                                                          Stmts   Miss  Cover   Missing
+invenio_records_rest/__init__.py                                  4      0   100%
+invenio_records_rest/_compat.py                                  11      5    55%   17-23
+invenio_records_rest/config.py                                   29      0   100%
+invenio_records_rest/errors.py                                  110     16    85%   34-37, 54, 68-73, 107-109, 190-192, 258-262
+invenio_records_rest/ext.py                                      52      1    98%   107
+invenio_records_rest/facets.py                                  103     22    79%   26-50, 116, 162-165, 184-187, 235
+invenio_records_rest/links.py                                    13      0   100%
+invenio_records_rest/loaders/__init__.py                          8      0   100%
+invenio_records_rest/loaders/marshmallow.py                      45      5    89%   52, 82-84, 101
+invenio_records_rest/proxies.py                                   4      0   100%
+invenio_records_rest/query.py                                    25      3    88%   34-39
+invenio_records_rest/schemas/__init__.py                          2      0   100%
+invenio_records_rest/schemas/fields/__init__.py                   8      0   100%
+invenio_records_rest/schemas/fields/datetime.py                  11      4    64%   16-19
+invenio_records_rest/schemas/fields/generated.py                 23      7    70%   26-49
+invenio_records_rest/schemas/fields/marshmallow_contrib.py       38      7    82%   14-15, 21, 71, 130-132
+invenio_records_rest/schemas/fields/persistentidentifier.py       9      0   100%
+invenio_records_rest/schemas/fields/sanitizedhtml.py             11      0   100%
+invenio_records_rest/schemas/fields/sanitizedunicode.py          14      0   100%
+invenio_records_rest/schemas/fields/trimmedstring.py              5      0   100%
+invenio_records_rest/schemas/json.py                             61     27    56%   22-30, 63-70, 75-92, 109, 117-118
+invenio_records_rest/serializers/__init__.py                      9      0   100%
+invenio_records_rest/serializers/base.py                         36      7    81%   32, 47, 57, 79, 92, 111, 121
+invenio_records_rest/serializers/citeproc.py                     65      8    88%   28-31, 91-93, 102, 110-111
+invenio_records_rest/serializers/csv.py                          66      3    95%   49, 130, 134
+invenio_records_rest/serializers/datacite.py                     43      0   100%
+invenio_records_rest/serializers/dc.py                           15      0   100%
+invenio_records_rest/serializers/json.py                         15      0   100%
+invenio_records_rest/serializers/jsonld.py                       32      4    88%   40-43
+invenio_records_rest/serializers/marshmallow.py                  20      0   100%
+invenio_records_rest/serializers/response.py                     27      0   100%
+invenio_records_rest/sorter.py                                   49      0   100%
+invenio_records_rest/utils.py                                   100      1    99%   163
+invenio_records_rest/views.py                                   342     14    96%   109-111, 122, 286, 291, 294, 435, 475, 736, 741, 899, 942, 979
+TOTAL                                                          1405    134    90%
+=========================== short test summary info ============================
+FAILED tests/test_serializer_citeproc.py::test_serialize - citeproc_styles.errors.StyleNotFoundError: The style harvard1 was not found
+FAILED tests/test_serializer_citeproc.py::test_serializer_args - AssertionError: assert 'Citeproc test' in '1. J. Doe, J. Smith, Citeproc Test (2016).'
+FAILED tests/test_serializer_citeproc.py::test_serializer_in_request - AssertionError: assert 'Citeproc test' in '1. J. Doe, J. Smith, Citeproc Test (2016).'
+================= 3 failed, 313 passed, 344 warnings in 44.56s =================
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed
