@@ -1,0 +1,168 @@
+{
+  "dependencies": [
+    {
+      "github_entry": {
+        "_extra": {},
+        "default_branch": null,
+        "exclude": [
+          "invenio-xrootd",
+          "invenio-swh"
+        ],
+        "extras": [
+          "tests",
+          "opensearch2",
+          "s3",
+          "devs",
+          "s3fs",
+          "oaipmh",
+          "rdf",
+          "sparql",
+          "postgresql",
+          "admin"
+        ],
+        "freeze": [
+          "setuptools<82.0.0"
+        ],
+        "include": [
+          "invenio-.*",
+          "pytest-invenio",
+          "citeproc-py-styles"
+        ],
+        "install": [],
+        "org": "inveniosoftware",
+        "package_map": {},
+        "slow_packages": {
+          "invenio-rdm-records": [
+            "tests/resources/test_iiif_image_api.py",
+            "tests/resources/test_resources_review.py",
+            "tests/services/test_rdm_service.py"
+          ]
+        },
+        "test": [
+          "./run-tests.sh"
+        ]
+      },
+      "patched_reference": {
+        "actual_version": "13.2.1",
+        "base": null,
+        "branch": null,
+        "commit": "89ee6e11d8dc0b0d44a428970ee6591a1bd313ed",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "invenio-users-resources",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-users-resources"
+      },
+      "patches": [
+        {
+          "actual_version": "13.2.1",
+          "base": null,
+          "branch": "mm.endpoint-typing",
+          "commit": "04cae0864606356185eed8067a38606085900b5e",
+          "commits_from_version": null,
+          "org": "max-moser",
+          "package": "invenio-users-resources",
+          "pr": null,
+          "pr_info": null,
+          "repo": "invenio-users-resources",
+          "versions": []
+        }
+      ],
+      "reference": {
+        "actual_version": "13.2.1",
+        "base": null,
+        "branch": "v13.2.1",
+        "commit": "89ee6e11d8dc0b0d44a428970ee6591a1bd313ed",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "invenio-users-resources",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-users-resources"
+      },
+      "unpatched_reference": {
+        "actual_version": "13.2.1",
+        "base": null,
+        "branch": null,
+        "commit": "89ee6e11d8dc0b0d44a428970ee6591a1bd313ed",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "invenio-users-resources",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-users-resources"
+      }
+    }
+  ],
+  "package": {
+    "github_entry": {
+      "_extra": {},
+      "default_branch": null,
+      "exclude": [
+        "invenio-xrootd",
+        "invenio-swh"
+      ],
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "include": [
+        "invenio-.*",
+        "pytest-invenio",
+        "citeproc-py-styles"
+      ],
+      "install": [],
+      "org": "inveniosoftware",
+      "package_map": {},
+      "slow_packages": {
+        "invenio-rdm-records": [
+          "tests/resources/test_iiif_image_api.py",
+          "tests/resources/test_resources_review.py",
+          "tests/services/test_rdm_service.py"
+        ]
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    "patched_reference": null,
+    "patches": [],
+    "reference": {
+      "actual_version": "14.3.2",
+      "base": null,
+      "branch": "v14.3.2",
+      "commit": "aefca122473d2ee9adfb33a752b968b934ea59eb",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-vocabularies",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-vocabularies"
+    },
+    "unpatched_reference": {
+      "actual_version": "14.3.2",
+      "base": null,
+      "branch": null,
+      "commit": "aefca122473d2ee9adfb33a752b968b934ea59eb",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-vocabularies",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-vocabularies"
+    }
+  },
+  "status": "success"
+}

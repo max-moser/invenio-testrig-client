@@ -1,0 +1,159 @@
+ Image postgres:16.2 Pulling 
+ cb628c265f09 Pulling fs layer 0B
+ 91d2729fa4d5 Pulling fs layer 0B
+ b0a0cf830b12 Pulling fs layer 0B
+ dda3d8fbd5ed Pulling fs layer 0B
+ 283a477db7bb Pulling fs layer 0B
+ e0d55fdb4d15 Pulling fs layer 0B
+ 9739ced65621 Pulling fs layer 0B
+ f8406d9c00ea Pulling fs layer 0B
+ ae3bb1b347a4 Pulling fs layer 0B
+ 873532e5f8c7 Pulling fs layer 0B
+ c1cb13b19080 Pulling fs layer 0B
+ c199bff16b05 Pulling fs layer 0B
+ 050d9f8c3b1c Pulling fs layer 0B
+ 710e142705f8 Pulling fs layer 0B
+ c199bff16b05 Downloading 3.145kB
+ 91d2729fa4d5 Downloading 1.45MB
+ cb628c265f09 Downloading 184B
+ b0a0cf830b12 Downloading 1.049MB
+ dda3d8fbd5ed Downloading 1.165kB
+ 050d9f8c3b1c Downloading 169B
+ 91d2729fa4d5 Download complete 0B
+ cb628c265f09 Download complete 0B
+ b0a0cf830b12 Downloading 14.68MB
+ dda3d8fbd5ed Download complete 0B
+ e0d55fdb4d15 Downloading 10.49MB
+ f8406d9c00ea Downloading 116B
+ c1cb13b19080 Downloading 9.925kB
+ 9739ced65621 Downloading 8.069MB
+ ae3bb1b347a4 Downloading 1.196MB
+ 873532e5f8c7 Downloading 128B
+ b0a0cf830b12 Downloading 29.15MB
+ e0d55fdb4d15 Downloading 28.31MB
+ f8406d9c00ea Download complete 0B
+ c1cb13b19080 Download complete 0B
+ 283a477db7bb Downloading 4.533MB
+ 9739ced65621 Download complete 0B
+ ae3bb1b347a4 Download complete 0B
+ 873532e5f8c7 Download complete 0B
+ c199bff16b05 Download complete 0B
+ 050d9f8c3b1c Download complete 0B
+ 710e142705f8 Download complete 0B
+ b0a0cf830b12 Download complete 0B
+ e0d55fdb4d15 Downloading 45.09MB
+ 283a477db7bb Download complete 0B
+ b0a0cf830b12 Extracting 1B
+ e0d55fdb4d15 Downloading 77.59MB
+ b0a0cf830b12 Extracting 1B
+ e0d55fdb4d15 Downloading 109MB
+ b0a0cf830b12 Extracting 1B
+ e0d55fdb4d15 Downloading 109MB
+ b0a0cf830b12 Extracting 1B
+ e0d55fdb4d15 Downloading 109MB
+ b0a0cf830b12 Extracting 1B
+ e0d55fdb4d15 Downloading 109MB
+ b0a0cf830b12 Extracting 1B
+ e0d55fdb4d15 Downloading 109MB
+ b0a0cf830b12 Extracting 1B
+ e0d55fdb4d15 Downloading 109MB
+ b0a0cf830b12 Extracting 1B
+ e0d55fdb4d15 Downloading 109MB
+ b0a0cf830b12 Extracting 1B
+ 56b5e4f0933d Download complete 0B
+ e0d55fdb4d15 Download complete 0B
+ b0a0cf830b12 Extracting 1B
+ 5682dec5b749 Download complete 0B
+ b0a0cf830b12 Extracting 2B
+ b0a0cf830b12 Extracting 2B
+ b0a0cf830b12 Extracting 2B
+ b0a0cf830b12 Extracting 2B
+ b0a0cf830b12 Pull complete 0B
+ 91d2729fa4d5 Extracting 1B
+ dda3d8fbd5ed Pull complete 0B
+ 283a477db7bb Pull complete 0B
+ 91d2729fa4d5 Pull complete 0B
+ 9739ced65621 Extracting 1B
+ 9739ced65621 Pull complete 0B
+ ae3bb1b347a4 Extracting 1B
+ ae3bb1b347a4 Pull complete 0B
+ f8406d9c00ea Pull complete 0B
+ c199bff16b05 Pull complete 0B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ cb628c265f09 Pull complete 0B
+ c1cb13b19080 Pull complete 0B
+ 873532e5f8c7 Pull complete 0B
+ 050d9f8c3b1c Pull complete 0B
+ 710e142705f8 Pull complete 0B
+ e0d55fdb4d15 Pull complete 0B
+ Image postgres:16.2 Pulled 
+ Network docker_services_cli_default Creating 
+ Network docker_services_cli_default Created 
+ Container docker_services_cli-postgresql-1 Creating 
+ Container docker_services_cli-postgresql-1 Created 
+ Container docker_services_cli-postgresql-1 Starting 
+ Container docker_services_cli-postgresql-1 Started 
+============================= test session starts ==============================
+platform linux -- Python 3.14.10, pytest-8.4.2, pluggy-1.7.0
+rootdir: /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-ui/patched
+configfile: pyproject.toml
+testpaths: tests, invenio_records_ui
+plugins: github-actions-annotate-failures-0.4.2, black-0.6.0, isort-4.0.0, flask-1.3.0, pydocstyle-2.4.0, invenio-4.0.3, cov-7.1.0, pycodestyle-2.5.0, platformdirs-4.14.3
+collected 30 items / 2 errors
+
+==================================== ERRORS ====================================
+______________ ERROR collecting tests/test_invenio_records_ui.py _______________
+ImportError while importing test module '/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-ui/patched/tests/test_invenio_records_ui.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_invenio_records_ui.py:13: in <module>
+    from invenio_access import InvenioAccess
+.venv/lib/python3.14/site-packages/invenio_access/__init__.py:426: in <module>
+    from .ext import InvenioAccess
+.venv/lib/python3.14/site-packages/invenio_access/ext.py:7: in <module>
+    import six
+E   ModuleNotFoundError: No module named 'six'
+______________ ERROR collecting tests/test_invenio_records_ui.py _______________
+ImportError while importing test module '/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-records-ui/patched/tests/test_invenio_records_ui.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_invenio_records_ui.py:13: in <module>
+    from invenio_access import InvenioAccess
+.venv/lib/python3.14/site-packages/invenio_access/__init__.py:426: in <module>
+    from .ext import InvenioAccess
+.venv/lib/python3.14/site-packages/invenio_access/ext.py:7: in <module>
+    import six
+E   ModuleNotFoundError: No module named 'six'
+=========================== short test summary info ============================
+ERROR tests/test_invenio_records_ui.py
+ERROR tests/test_invenio_records_ui.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!!
+============================== 2 errors in 0.48s ===============================
+ Container docker_services_cli-postgresql-1 Stopping 
+ Container docker_services_cli-postgresql-1 Stopped 
+ Container docker_services_cli-postgresql-1 Removing 
+ Container docker_services_cli-postgresql-1 Removed 
+ Network docker_services_cli_default Removing 
+ Network docker_services_cli_default Removed 

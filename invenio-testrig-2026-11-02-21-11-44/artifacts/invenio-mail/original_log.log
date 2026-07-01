@@ -1,0 +1,4 @@
+ImportError while loading conftest '/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-mail/original/tests/conftest.py'.
+tests/conftest.py:13: in <module>
+    from six import StringIO
+E   ModuleNotFoundError: No module named 'six'

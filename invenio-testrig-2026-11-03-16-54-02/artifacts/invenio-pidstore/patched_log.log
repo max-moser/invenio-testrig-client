@@ -1,0 +1,458 @@
+extracting messages from invenio_pidstore/__init__.py (encoding="utf-8")
+extracting messages from invenio_pidstore/admin.py (encoding="utf-8")
+extracting messages from invenio_pidstore/cli.py (encoding="utf-8")
+extracting messages from invenio_pidstore/config.py (encoding="utf-8")
+extracting messages from invenio_pidstore/errors.py (encoding="utf-8")
+extracting messages from invenio_pidstore/ext.py (encoding="utf-8")
+extracting messages from invenio_pidstore/fetchers.py (encoding="utf-8")
+extracting messages from invenio_pidstore/minters.py (encoding="utf-8")
+extracting messages from invenio_pidstore/models.py (encoding="utf-8")
+extracting messages from invenio_pidstore/patch_info.py (encoding="utf-8")
+extracting messages from invenio_pidstore/proxies.py (encoding="utf-8")
+extracting messages from invenio_pidstore/resolver.py (encoding="utf-8")
+extracting messages from invenio_pidstore/alembic/734dbec0f3f8_change_datetime_types.py (encoding="utf-8")
+extracting messages from invenio_pidstore/alembic/999c62899c20_create_pidstore_tables.py (encoding="utf-8")
+extracting messages from invenio_pidstore/alembic/f615cee99600_create_pidstore_branch.py (encoding="utf-8")
+extracting messages from invenio_pidstore/providers/__init__.py (encoding="utf-8")
+extracting messages from invenio_pidstore/providers/base.py (encoding="utf-8")
+extracting messages from invenio_pidstore/providers/datacite.py (encoding="utf-8")
+extracting messages from invenio_pidstore/providers/recordid.py (encoding="utf-8")
+extracting messages from invenio_pidstore/providers/recordid_v2.py (encoding="utf-8")
+writing PO template file to /dev/null
+ Image redis:7 Pulling 
+ Image postgres:16.2 Pulling 
+ b0a0cf830b12 Pulling fs layer 0B
+ e0d55fdb4d15 Pulling fs layer 0B
+ 283a477db7bb Pulling fs layer 0B
+ cb628c265f09 Pulling fs layer 0B
+ c1cb13b19080 Pulling fs layer 0B
+ f8406d9c00ea Pulling fs layer 0B
+ 91d2729fa4d5 Pulling fs layer 0B
+ c199bff16b05 Pulling fs layer 0B
+ 873532e5f8c7 Pulling fs layer 0B
+ dda3d8fbd5ed Pulling fs layer 0B
+ 710e142705f8 Pulling fs layer 0B
+ 9739ced65621 Pulling fs layer 0B
+ 050d9f8c3b1c Pulling fs layer 0B
+ ae3bb1b347a4 Pulling fs layer 0B
+ d6aecb83344b Pulling fs layer 0B
+ a9bd82aed298 Pulling fs layer 0B
+ f4ff9d4e92de Pulling fs layer 0B
+ 142efe7e4cd9 Pulling fs layer 0B
+ 3c5439d0ae62 Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ 742179fec703 Pulling fs layer 0B
+ c199bff16b05 Download complete 0B
+ e0d55fdb4d15 Downloading 15.73MB
+ 4f4fb700ef54 Already exists 0B
+ dda3d8fbd5ed Downloading 1.165kB
+ e0d55fdb4d15 Downloading 48.23MB
+ 050d9f8c3b1c Download complete 0B
+ 710e142705f8 Download complete 0B
+ f4ff9d4e92de Download complete 0B
+ f8406d9c00ea Download complete 0B
+ 283a477db7bb Downloading 4.533MB
+ c1cb13b19080 Download complete 0B
+ 91d2729fa4d5 Download complete 0B
+ 873532e5f8c7 Download complete 0B
+ 9739ced65621 Downloading 8.069MB
+ ae3bb1b347a4 Download complete 0B
+ cb628c265f09 Download complete 0B
+ 9739ced65621 Download complete 0B
+ b0a0cf830b12 Downloading 12.58MB
+ 3c5439d0ae62 Downloading 12.58MB
+ 742179fec703 Downloading 12.58MB
+ dda3d8fbd5ed Download complete 0B
+ e0d55fdb4d15 Downloading 63.96MB
+ d6aecb83344b Download complete 0B
+ 283a477db7bb Download complete 0B
+ 142efe7e4cd9 Download complete 0B
+ b0a0cf830b12 Downloading 27.26MB
+ e0d55fdb4d15 Downloading 78.64MB
+ 5682dec5b749 Downloading 5.719MB
+ a9bd82aed298 Download complete 0B
+ 742179fec703 Downloading 15.36MB
+ 3c5439d0ae62 Downloading 28.25MB
+ b0a0cf830b12 Downloading 29.15MB
+ 56b5e4f0933d Downloading 55.24kB
+ e0d55fdb4d15 Downloading 89.13MB
+ 5682dec5b749 Downloading 5.719MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 742179fec703 Downloading 15.36MB
+ e0d55fdb4d15 Downloading 91.23MB
+ 5682dec5b749 Downloading 5.719MB
+ b0a0cf830b12 Downloading 29.15MB
+ 56b5e4f0933d Downloading 55.24kB
+ 3c5439d0ae62 Downloading 28.25MB
+ 742179fec703 Downloading 15.36MB
+ 5682dec5b749 Downloading 5.719MB
+ b0a0cf830b12 Downloading 29.15MB
+ 56b5e4f0933d Downloading 55.24kB
+ e0d55fdb4d15 Downloading 109MB
+ 3c5439d0ae62 Downloading 28.25MB
+ b0a0cf830b12 Downloading 29.15MB
+ 56b5e4f0933d Downloading 55.24kB
+ e0d55fdb4d15 Downloading 109MB
+ 5682dec5b749 Downloading 5.719MB
+ 3c5439d0ae62 Downloading 28.25MB
+ 56b5e4f0933d Downloading 55.24kB
+ e0d55fdb4d15 Downloading 109MB
+ 5682dec5b749 Downloading 5.719MB
+ b0a0cf830b12 Downloading 29.15MB
+ 742179fec703 Download complete 0B
+ 3c5439d0ae62 Downloading 28.25MB
+ b0a0cf830b12 Downloading 29.15MB
+ 56b5e4f0933d Downloading 55.24kB
+ e0d55fdb4d15 Downloading 109MB
+ 3c5439d0ae62 Download complete 0B
+ 3c5439d0ae62 Extracting 1B
+ b0a0cf830b12 Downloading 29.15MB
+ e0d55fdb4d15 Downloading 109MB
+ 5682dec5b749 Download complete 0B
+ 3c5439d0ae62 Extracting 1B
+ b0a0cf830b12 Downloading 29.15MB
+ e0d55fdb4d15 Downloading 109MB
+ 3c5439d0ae62 Extracting 1B
+ b0a0cf830b12 Downloading 29.15MB
+ 56b5e4f0933d Download complete 0B
+ e0d55fdb4d15 Downloading 109MB
+ 3c5439d0ae62 Extracting 1B
+ b0a0cf830b12 Download complete 0B
+ e0d55fdb4d15 Download complete 0B
+ 3c5439d0ae62 Extracting 1B
+ 3514c8733835 Download complete 0B
+ 6b39f47a897c Downloading 2.373MB
+ b0a0cf830b12 Extracting 1B
+ 3c5439d0ae62 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ 6b39f47a897c Download complete 0B
+ 3c5439d0ae62 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ 3c5439d0ae62 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ 3c5439d0ae62 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ 3c5439d0ae62 Extracting 1B
+ b0a0cf830b12 Extracting 1B
+ 3c5439d0ae62 Extracting 2B
+ b0a0cf830b12 Extracting 1B
+ 3c5439d0ae62 Extracting 2B
+ b0a0cf830b12 Extracting 1B
+ 3c5439d0ae62 Pull complete 0B
+ dda3d8fbd5ed Extracting 1B
+ b0a0cf830b12 Pull complete 0B
+ 142efe7e4cd9 Pull complete 0B
+ a9bd82aed298 Pull complete 0B
+ 742179fec703 Extracting 1B
+ 91d2729fa4d5 Extracting 1B
+ dda3d8fbd5ed Pull complete 0B
+ 283a477db7bb Pull complete 0B
+ 742179fec703 Extracting 1B
+ 91d2729fa4d5 Pull complete 0B
+ 9739ced65621 Extracting 1B
+ 4f4fb700ef54 Pull complete 0B
+ f4ff9d4e92de Pull complete 0B
+ d6aecb83344b Pull complete 0B
+ 742179fec703 Pull complete 0B
+ Image redis:7 Pulled 
+ ae3bb1b347a4 Extracting 1B
+ 9739ced65621 Pull complete 0B
+ c199bff16b05 Pull complete 0B
+ f8406d9c00ea Pull complete 0B
+ ae3bb1b347a4 Pull complete 0B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 1B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ e0d55fdb4d15 Extracting 2B
+ 050d9f8c3b1c Pull complete 0B
+ 710e142705f8 Extracting 1B
+ c1cb13b19080 Pull complete 0B
+ 873532e5f8c7 Pull complete 0B
+ e0d55fdb4d15 Pull complete 0B
+ 710e142705f8 Pull complete 0B
+ cb628c265f09 Pull complete 0B
+ Image postgres:16.2 Pulled 
+ Network docker_services_cli_default Creating 
+ Network docker_services_cli_default Created 
+ Container docker_services_cli-redis-1 Creating 
+ Container docker_services_cli-postgresql-1 Creating 
+ Container docker_services_cli-postgresql-1 Created 
+ Container docker_services_cli-redis-1 Created 
+ Container docker_services_cli-redis-1 Starting 
+ Container docker_services_cli-postgresql-1 Starting 
+ Container docker_services_cli-redis-1 Started 
+ Container docker_services_cli-postgresql-1 Started 
+============================= test session starts ==============================
+platform linux -- Python 3.14.10, pytest-8.4.2, pluggy-1.7.0
+rootdir: /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched
+configfile: pyproject.toml
+testpaths: tests, invenio_pidstore
+plugins: github-actions-annotate-failures-0.4.2, black-0.6.0, isort-4.0.0, flask-1.3.0, pydocstyle-2.4.0, invenio-4.0.3, cov-7.1.0, pycodestyle-2.5.0, platformdirs-4.14.3
+collected 127 items
+::warning file=workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/flask_admin/contrib/__init__.py,line=2::pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+::warning file=workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/flask_admin/contrib/__init__.py,line=2::Deprecated call to `pkg_resources.declare_namespace('flask_admin.contrib')`.%0AImplementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+::warning file=workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/pkg_resources/__init__.py,line=2560::Deprecated call to `pkg_resources.declare_namespace('flask_admin')`.%0AImplementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+
+tests/conftest.py ...                                                    [  2%]
+tests/test_admin.py .....                                                [  6%]
+tests/test_cli.py ...::warning file=workdir/tests/invenio-pidstore/patched/tests/test_cli.py,line=21::'isolated_filesystem' is deprecated and will be removed in Click 9.0. Use 'tempfile.TemporaryDirectory' or pytest's 'tmp_path' fixture with absolute paths instead.
+.::warning file=workdir/tests/invenio-pidstore/patched/tests/test_cli.py,line=131::'isolated_filesystem' is deprecated and will be removed in Click 9.0. Use 'tempfile.TemporaryDirectory' or pytest's 'tmp_path' fixture with absolute paths instead.
+.::warning file=workdir/tests/invenio-pidstore/patched/tests/test_cli.py,line=246::'isolated_filesystem' is deprecated and will be removed in Click 9.0. Use 'tempfile.TemporaryDirectory' or pytest's 'tmp_path' fixture with absolute paths instead.
+                                                  [ 10%]
+tests/test_ext.py .......                                                [ 15%]
+tests/test_fetchers.py .....                                             [ 19%]
+tests/test_invenio_pidstore.py ...s::warning file=../../../../../../../../../opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/metadata/_collections.py,line=30::unclosed database in <sqlite3.Connection object at 0x74db9a11e2f0>
+::warning file=../../../../../../../../../opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/metadata/_collections.py,line=30::unclosed database in <sqlite3.Connection object at 0x74db9a14f970>
+::warning file=../../../../../../../../../opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/metadata/_collections.py,line=30::unclosed database in <sqlite3.Connection object at 0x74db9a22cb80>
+::warning file=../../../../../../../../../opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/metadata/_collections.py,line=30::unclosed database in <sqlite3.Connection object at 0x74db9a1ca7a0>
+::warning file=../../../../../../../../../opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/metadata/_collections.py,line=30::unclosed database in <sqlite3.Connection object at 0x74db99e02e30>
+::warning file=../../../../../../../../../opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/metadata/_collections.py,line=30::unclosed database in <sqlite3.Connection object at 0x74db99e00130>
+::warning file=../../../../../../../../../opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/metadata/_collections.py,line=30::unclosed database in <sqlite3.Connection object at 0x74db99e00f40>
+............                          [ 32%]
+tests/test_minters.py .....                                              [ 36%]
+tests/test_providers.py ............                                     [ 45%]
+tests/test_recordidentifier.py ...                                       [ 48%]
+tests/test_resolver.py ...::warning file=../../../../../../../../../opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/collections/__init__.py,line=464::unclosed database in <sqlite3.Connection object at 0x74db99e884f0>
+::warning file=../../../../../../../../../opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/collections/__init__.py,line=464::unclosed database in <sqlite3.Connection object at 0x74db9a1cb3d0>
+..                                             [ 51%]
+invenio_pidstore/__init__.py ....                                        [ 55%]
+invenio_pidstore/admin.py ...                                            [ 57%]
+invenio_pidstore/alembic/734dbec0f3f8_change_datetime_types.py ...       [ 59%]
+invenio_pidstore/alembic/999c62899c20_create_pidstore_tables.py ...      [ 62%]
+invenio_pidstore/alembic/f615cee99600_create_pidstore_branch.py ...      [ 64%]
+invenio_pidstore/cli.py ...                                              [ 66%]
+invenio_pidstore/config.py ...                                           [ 69%]
+invenio_pidstore/errors.py ...                                           [ 71%]
+invenio_pidstore/ext.py ...                                              [ 74%]
+invenio_pidstore/fetchers.py ...                                         [ 76%]
+invenio_pidstore/minters.py ...                                          [ 78%]
+invenio_pidstore/models.py ...                                           [ 81%]
+invenio_pidstore/patch_info.py ...                                       [ 83%]
+invenio_pidstore/providers/__init__.py ...                               [ 85%]
+invenio_pidstore/providers/base.py ...                                   [ 88%]
+invenio_pidstore/providers/datacite.py ...                               [ 90%]
+invenio_pidstore/providers/recordid.py ...                               [ 92%]
+invenio_pidstore/providers/recordid_v2.py ...                            [ 95%]
+invenio_pidstore/proxies.py ...                                          [ 97%]
+invenio_pidstore/resolver.py ...                                         [100%]
+
+=============================== warnings summary ===============================
+.venv/lib/python3.14/site-packages/flask_admin/contrib/__init__.py:2
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/flask_admin/contrib/__init__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+    __import__('pkg_resources').declare_namespace(__name__)
+
+.venv/lib/python3.14/site-packages/flask_admin/contrib/__init__.py:2
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/flask_admin/contrib/__init__.py:2: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('flask_admin.contrib')`.
+  Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+    __import__('pkg_resources').declare_namespace(__name__)
+
+.venv/lib/python3.14/site-packages/pkg_resources/__init__.py:2560
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/pkg_resources/__init__.py:2560: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('flask_admin')`.
+  Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+    declare_namespace(parent)
+
+tests/test_cli.py::test_pid_creation
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/tests/test_cli.py:21: DeprecationWarning: 'isolated_filesystem' is deprecated and will be removed in Click 9.0. Use 'tempfile.TemporaryDirectory' or pytest's 'tmp_path' fixture with absolute paths instead.
+    with runner.isolated_filesystem():
+
+tests/test_cli.py::test_pid_assign
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/tests/test_cli.py:131: DeprecationWarning: 'isolated_filesystem' is deprecated and will be removed in Click 9.0. Use 'tempfile.TemporaryDirectory' or pytest's 'tmp_path' fixture with absolute paths instead.
+    with runner.isolated_filesystem():
+
+tests/test_cli.py::test_pid_unassign
+  /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/tests/test_cli.py:246: DeprecationWarning: 'isolated_filesystem' is deprecated and will be removed in Click 9.0. Use 'tempfile.TemporaryDirectory' or pytest's 'tmp_path' fixture with absolute paths instead.
+    with runner.isolated_filesystem():
+
+tests/test_invenio_pidstore.py::test_alembic
+  /opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/metadata/_collections.py:30: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9a11e2f0>
+    return cls(*map(str.strip, text.split("=", 1)))
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/test_invenio_pidstore.py::test_alembic
+  /opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/metadata/_collections.py:30: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9a14f970>
+    return cls(*map(str.strip, text.split("=", 1)))
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/test_invenio_pidstore.py::test_alembic
+  /opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/metadata/_collections.py:30: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9a22cb80>
+    return cls(*map(str.strip, text.split("=", 1)))
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/test_invenio_pidstore.py::test_alembic
+  /opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/metadata/_collections.py:30: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9a1ca7a0>
+    return cls(*map(str.strip, text.split("=", 1)))
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/test_invenio_pidstore.py::test_alembic
+  /opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/metadata/_collections.py:30: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e02e30>
+    return cls(*map(str.strip, text.split("=", 1)))
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/test_invenio_pidstore.py::test_alembic
+  /opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/metadata/_collections.py:30: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e00130>
+    return cls(*map(str.strip, text.split("=", 1)))
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/test_invenio_pidstore.py::test_alembic
+  /opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/importlib/metadata/_collections.py:30: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e00f40>
+    return cls(*map(str.strip, text.split("=", 1)))
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/test_resolver.py::test_resolver
+  /opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/collections/__init__.py:464: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e884f0>
+    result = self._make(_map(kwds.pop, field_names, self))
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/test_resolver.py::test_resolver
+  /opt/hostedtoolcache/Python/3.14.10/x64/lib/python3.14/collections/__init__.py:464: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9a1cb3d0>
+    result = self._make(_map(kwds.pop, field_names, self))
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.10-final-0 _______________
+
+Name                                                              Stmts   Miss  Cover   Missing
+-----------------------------------------------------------------------------------------------
+invenio_pidstore/__init__.py                                          4      0   100%
+invenio_pidstore/admin.py                                            31      0   100%
+invenio_pidstore/alembic/734dbec0f3f8_change_datetime_types.py       13      6    54%   21-23, 28-30
+invenio_pidstore/alembic/999c62899c20_create_pidstore_tables.py      21     12    43%   19-44, 59-64
+invenio_pidstore/alembic/f615cee99600_create_pidstore_branch.py       6      0   100%
+invenio_pidstore/cli.py                                              74      0   100%
+invenio_pidstore/config.py                                            5      0   100%
+invenio_pidstore/errors.py                                           24      0   100%
+invenio_pidstore/ext.py                                              59      1    98%   138
+invenio_pidstore/fetchers.py                                         12      0   100%
+invenio_pidstore/minters.py                                          15      0   100%
+invenio_pidstore/models.py                                          245      0   100%
+invenio_pidstore/patch_info.py                                        6      2    67%   33-35
+invenio_pidstore/providers/__init__.py                                0      0   100%
+invenio_pidstore/providers/base.py                                   28      0   100%
+invenio_pidstore/providers/datacite.py                               93      0   100%
+invenio_pidstore/providers/recordid.py                               17      0   100%
+invenio_pidstore/providers/recordid_v2.py                            31      0   100%
+invenio_pidstore/proxies.py                                           3      0   100%
+invenio_pidstore/resolver.py                                         28      2    93%   57-58
+-----------------------------------------------------------------------------------------------
+TOTAL                                                               715     23    97%
+================= 126 passed, 1 skipped, 15 warnings in 11.08s =================
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9a14f5b0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9a11e7a0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9a1ca5c0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9a1ca3e0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e88e50>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9a1c8a90>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9a11da80>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9a11c400>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e8a980>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e034c0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e00b80>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e03d30>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9dfbb5b0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e894e0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99dc9e40>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9b9fa3e0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e8bf10>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e8a3e0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e02890>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e01e40>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99dc9d50>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99dc94e0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99dc9210>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99dcad40>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99cf1030>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db9a11d300>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99dc8c70>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99e026b0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99dc87c0>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-pidstore/patched/.venv/lib/python3.14/site-packages/_pytest/unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x74db99dcb880>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ Container docker_services_cli-postgresql-1 Stopping 
+ Container docker_services_cli-redis-1 Stopping 
+ Container docker_services_cli-postgresql-1 Stopped 
+ Container docker_services_cli-postgresql-1 Removing 
+ Container docker_services_cli-postgresql-1 Removed 
+ Container docker_services_cli-redis-1 Stopped 
+ Container docker_services_cli-redis-1 Removing 
+ Container docker_services_cli-redis-1 Removed 
+ Network docker_services_cli_default Removing 
+ Network docker_services_cli_default Removed 

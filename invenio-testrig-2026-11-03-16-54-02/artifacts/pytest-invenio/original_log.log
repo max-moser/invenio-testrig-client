@@ -1,0 +1,215 @@
+ Image opensearchproject/opensearch:2.16.0 Pulling 
+ 2e81b9cb93cd Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ eb77aa907276 Pulling fs layer 0B
+ 0ffa8f8aba1e Pulling fs layer 0B
+ 648eb81b3252 Pulling fs layer 0B
+ f9dd052e142d Pulling fs layer 0B
+ e8c6d4883897 Pulling fs layer 0B
+ 4f4fb700ef54 Already exists 0B
+ 2e81b9cb93cd Downloading 1.859kB
+ 2e81b9cb93cd Downloading 1.859kB
+ 2e81b9cb93cd Downloading 1.859kB
+ 2e81b9cb93cd Downloading 1.859kB
+ 2e81b9cb93cd Downloading 1.859kB
+ eb77aa907276 Downloading 25.17MB
+ 0ffa8f8aba1e Downloading 226B
+ 2e81b9cb93cd Download complete 0B
+ eb77aa907276 Downloading 58.72MB
+ 0ffa8f8aba1e Downloading 226B
+ 648eb81b3252 Downloading 1.561kB
+ e8c6d4883897 Downloading 4.398MB
+ eb77aa907276 Downloading 88.08MB
+ 0ffa8f8aba1e Downloading 226B
+ 648eb81b3252 Downloading 1.561kB
+ f9dd052e142d Downloading 28.31MB
+ e8c6d4883897 Downloading 4.398MB
+ eb77aa907276 Downloading 123.7MB
+ 0ffa8f8aba1e Download complete 0B
+ f9dd052e142d Downloading 52.33MB
+ e8c6d4883897 Downloading 4.398MB
+ 648eb81b3252 Download complete 0B
+ f9dd052e142d Downloading 52.33MB
+ e8c6d4883897 Downloading 4.398MB
+ eb77aa907276 Downloading 166.7MB
+ eb77aa907276 Downloading 203.4MB
+ f9dd052e142d Downloading 52.33MB
+ eb77aa907276 Downloading 235.9MB
+ f9dd052e142d Download complete 0B
+ e8c6d4883897 Download complete 0B
+ f9dd052e142d Extracting 1B
+ eb77aa907276 Downloading 268.4MB
+ f9dd052e142d Extracting 1B
+ eb77aa907276 Downloading 306.2MB
+ f9dd052e142d Extracting 1B
+ eb77aa907276 Downloading 340.8MB
+ f9dd052e142d Extracting 1B
+ eb77aa907276 Downloading 374.3MB
+ f9dd052e142d Extracting 1B
+ eb77aa907276 Downloading 407.9MB
+ f9dd052e142d Extracting 1B
+ eb77aa907276 Downloading 443.5MB
+ f9dd052e142d Extracting 1B
+ eb77aa907276 Downloading 480.2MB
+ f9dd052e142d Extracting 1B
+ eb77aa907276 Downloading 512.8MB
+ f9dd052e142d Extracting 1B
+ eb77aa907276 Downloading 549.5MB
+ f9dd052e142d Extracting 1B
+ eb77aa907276 Downloading 588.3MB
+ f9dd052e142d Extracting 1B
+ eb77aa907276 Downloading 625MB
+ f9dd052e142d Extracting 2B
+ eb77aa907276 Downloading 660.6MB
+ f9dd052e142d Extracting 2B
+ eb77aa907276 Downloading 701.5MB
+ f9dd052e142d Extracting 2B
+ eb77aa907276 Downloading 739.2MB
+ f9dd052e142d Extracting 2B
+ eb77aa907276 Downloading 782.2MB
+ eb77aa907276 Downloading 783.3MB
+ eb77aa907276 Downloading 821MB
+ f9dd052e142d Pull complete 0B
+ eb77aa907276 Downloading 865.1MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ e8c6d4883897 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ e8c6d4883897 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ e8c6d4883897 Pull complete 0B
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ 648eb81b3252 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ 648eb81b3252 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ 648eb81b3252 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ 648eb81b3252 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ 648eb81b3252 Extracting 1B
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ 648eb81b3252 Pull complete 0B
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Downloading 907.7MB
+ eb77aa907276 Download complete 0B
+ eb77aa907276 Extracting 1B
+ eb77aa907276 Extracting 1B
+ eb77aa907276 Extracting 1B
+ eb77aa907276 Extracting 1B
+ eb77aa907276 Extracting 1B
+ eb77aa907276 Extracting 1B
+ eb77aa907276 Extracting 1B
+ eb77aa907276 Extracting 1B
+ eb77aa907276 Extracting 1B
+ eb77aa907276 Extracting 1B
+ eb77aa907276 Extracting 2B
+ eb77aa907276 Extracting 2B
+ eb77aa907276 Extracting 2B
+ eb77aa907276 Extracting 2B
+ eb77aa907276 Extracting 2B
+ eb77aa907276 Extracting 2B
+ eb77aa907276 Extracting 2B
+ eb77aa907276 Extracting 2B
+ eb77aa907276 Extracting 2B
+ eb77aa907276 Extracting 2B
+ eb77aa907276 Extracting 3B
+ eb77aa907276 Extracting 3B
+ eb77aa907276 Extracting 3B
+ eb77aa907276 Extracting 3B
+ eb77aa907276 Extracting 3B
+ eb77aa907276 Extracting 3B
+ eb77aa907276 Extracting 3B
+ eb77aa907276 Extracting 3B
+ eb77aa907276 Extracting 3B
+ eb77aa907276 Extracting 3B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Extracting 4B
+ eb77aa907276 Pull complete 0B
+ 4f4fb700ef54 Pull complete 0B
+ 2e81b9cb93cd Pull complete 0B
+ 0ffa8f8aba1e Pull complete 0B
+ Image opensearchproject/opensearch:2.16.0 Pulled 
+ Network docker_services_cli_default Creating 
+ Network docker_services_cli_default Created 
+ Container docker_services_cli-opensearch-1 Creating 
+ Container docker_services_cli-opensearch-1 Created 
+ Container docker_services_cli-opensearch-1 Starting 
+ Container docker_services_cli-opensearch-1 Started 
+============================= test session starts ==============================
+platform linux -- Python 3.14.10, pytest-8.4.2, pluggy-1.7.0
+rootdir: /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/pytest-invenio/original
+configfile: pyproject.toml
+testpaths: tests, pytest_invenio
+plugins: github-actions-annotate-failures-0.4.2, black-0.6.0, isort-4.0.0, flask-1.3.0, pydocstyle-2.4.0, invenio-4.0.3, cov-7.1.0, pycodestyle-2.5.0, platformdirs-4.14.3
+collected 47 items
+
+tests/conftest.py ...                                                    [  6%]
+tests/test_fixtures.py .........................s......                  [ 74%]
+pytest_invenio/__init__.py ...                                           [ 80%]
+pytest_invenio/fixtures.py ...                                           [ 87%]
+pytest_invenio/plugin.py ...                                             [ 93%]
+pytest_invenio/user.py ...                                               [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.10-final-0 _______________
+
+Name                         Stmts   Miss  Cover   Missing
+----------------------------------------------------------
+pytest_invenio/__init__.py       2      2     0%   498-500
+pytest_invenio/fixtures.py     324    322     1%   8-367, 381-1068
+pytest_invenio/plugin.py        14     10    29%   16-56, 73-85
+pytest_invenio/user.py          91     91     0%   8-178
+----------------------------------------------------------
+TOTAL                          431    425     1%
+======================== 46 passed, 1 skipped in 36.94s ========================
+ Container docker_services_cli-opensearch-1 Stopping 
+ Container docker_services_cli-opensearch-1 Stopped 
+ Container docker_services_cli-opensearch-1 Removing 
+ Container docker_services_cli-opensearch-1 Removed 
+ Network docker_services_cli_default Removing 
+ Network docker_services_cli_default Removed 

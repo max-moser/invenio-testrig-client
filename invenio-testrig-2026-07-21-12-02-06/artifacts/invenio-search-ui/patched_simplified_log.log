@@ -1,0 +1,30 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-search-ui/patched
+configfile: pyproject.toml
+testpaths: tests, invenio_search_ui
+plugins: pycodestyle-2.5.0, pydocstyle-2.4.0, cov-7.1.0, invenio-4.0.2, flask-1.3.0, black-0.6.0, isort-4.0.0, github-actions-annotate-failures-0.4.2
+collected 36 items
+tests/conftest.py ...                                                    [  8%]
+tests/test_app.py ....                                                   [ 19%]
+tests/test_ng_templates.py ....                                          [ 30%]
+tests/test_rsk_templates.py ....                                         [ 41%]
+invenio_search_ui/__init__.py ...                                        [ 50%]
+invenio_search_ui/config.py ...                                          [ 58%]
+invenio_search_ui/ext.py ...                                             [ 66%]
+invenio_search_ui/patch_info.py ...                                      [ 75%]
+invenio_search_ui/searchconfig.py ...                                    [ 83%]
+invenio_search_ui/views.py ...                                           [ 91%]
+invenio_search_ui/webpack.py ...                                         [100%]
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+Name                                Stmts   Miss  Cover   Missing
+invenio_search_ui/__init__.py           3      0   100%
+invenio_search_ui/config.py            31      0   100%
+invenio_search_ui/ext.py               14      0   100%
+invenio_search_ui/patch_info.py         6      2    67%   33-35
+invenio_search_ui/searchconfig.py      75     40    47%   16-17, 21-22, 26, 36-39, 45, 53-68, 108-111, 116, 121, 133, 150, 158, 166, 171-178, 190, 197-212, 220, 230, 249-258
+invenio_search_ui/views.py             73      2    97%   46, 226
+invenio_search_ui/webpack.py            2      0   100%
+TOTAL                                 204     44    78%
+============================== 36 passed in 2.56s ==============================
